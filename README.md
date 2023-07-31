@@ -1,9 +1,11 @@
 # MOOVE
 지하철 노선도 및 인근 장소 정보 제공 웹앱 서비스
+- [배포 사이트 👉](https://sienna0715.github.io/moove/)
+- [Team Notion  👉](https://fluoridated-locust-c63.notion.site/MOOVE-382f79602af24adc8f7d5f6fe49349ff?pvs=4)
 
 ### Member
-🐶 **김무성** | [lampu의 깃헙→](https://github.com/lapmu) <br />
-🐼 **이시온** | [sienna의 깃헙→](https://github.com/sienna0715)
+🐶 **김무성** | [lampu의 깃헙 →](https://github.com/lapmu) <br />
+🐼 **이시온** | [sienna의 깃헙 →](https://github.com/sienna0715)
 
 ### Preiod
 2023.07.11 ~ ing
