@@ -15,7 +15,7 @@ function Line5() {
           fill="none"
           stroke="#8300EB"
           strokeWidth={8}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <line
           x1={170}
@@ -30,7 +30,7 @@ function Line5() {
           fill="none"
           stroke="#8300EB"
           strokeWidth={8}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <line
           x1={250}
@@ -45,7 +45,7 @@ function Line5() {
           fill="none"
           stroke="#8300EB"
           strokeWidth={8}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <line
           x1={750}
@@ -60,7 +60,7 @@ function Line5() {
           fill="none"
           stroke="#8300EB"
           strokeWidth={8}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <line
           x1={800}
@@ -75,7 +75,7 @@ function Line5() {
           fill="none"
           stroke="#8300EB"
           strokeWidth={8}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <line
           x1={900}
@@ -90,7 +90,7 @@ function Line5() {
           fill="none"
           stroke="#8300EB"
           strokeWidth={8}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <line
           x1={950}
@@ -105,7 +105,7 @@ function Line5() {
           fill="none"
           stroke="#8300EB"
           strokeWidth={8}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <line
           x1={1150}
@@ -120,7 +120,7 @@ function Line5() {
           fill="none"
           stroke="#8300EB"
           strokeWidth={8}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <line
           x1={1400}
@@ -135,7 +135,7 @@ function Line5() {
           fill="none"
           stroke="#8300EB"
           strokeWidth={8}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <line
           x1={1700}
@@ -150,7 +150,7 @@ function Line5() {
           fill="none"
           stroke="#8300EB"
           strokeWidth={8}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <line
           x1={1800}
@@ -173,14 +173,14 @@ function Line5() {
           fill="none"
           stroke="#8300EB"
           strokeWidth={8}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M2000 500 C 2000 500, 2000 400, 2100 400"
           fill="none"
           stroke="#8300EB"
           strokeWidth={8}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         {/* 하남풍산 */}
         <line
@@ -197,7 +197,7 @@ function Line5() {
           fill="none"
           stroke="#8300EB"
           strokeWidth={8}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <line
           x1={2100}
@@ -212,7 +212,7 @@ function Line5() {
           fill="none"
           stroke="#8300EB"
           strokeWidth={8}
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <line
           x1={2200}
