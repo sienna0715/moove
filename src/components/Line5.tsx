@@ -1,6 +1,6 @@
 function Line5() {
   return (
-    <>
+    <symbol id="line5SvgContainer">
       <line x1={5} y1={10} x2={120} y2={10} strokeWidth={8} stroke="#8300EB" />
       <path
         d="M120 10 C 120 10, 170 10, 170 80"
@@ -753,7 +753,7 @@ function Line5() {
         strokeWidth={5}
         stroke="#8300EB"
       />
-    </>
+    </symbol>
   );
 }
 
