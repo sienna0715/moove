@@ -520,8 +520,8 @@ function Line5() {
       />
       {/* 왕십리 */}
       <rect
-        width={40}
-        height={15}
+        width={15}
+        height={30}
         x={1400}
         y={190}
         rx={8}
