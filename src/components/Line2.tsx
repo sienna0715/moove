@@ -93,6 +93,451 @@ function Line2() {
         stroke="#3DB44B"
         strokeWidth="8"
       />
+      {/* station */}
+      {/* 신정네거리 */}
+      <circle
+        cx={340}
+        cy={815}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 양천구청 */}
+      <circle
+        cx={420}
+        cy={820}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 도림천 */}
+      <circle
+        cx={490}
+        cy={820}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 신도림 */}
+      <rect
+        width={15}
+        height={40}
+        x={576}
+        y={800}
+        rx={8}
+        ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 문래 */}
+      <circle
+        cx={583}
+        cy={760}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 합정 */}
+      <rect
+        width={15}
+        height={30}
+        x={576}
+        y={500}
+        rx={8}
+        ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 당산 */}
+      <rect
+        width={15}
+        height={30}
+        x={576}
+        y={590}
+        rx={8}
+        ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 홍대입구 */}
+      <rect
+        width={40}
+        height={15}
+        x={576}
+        y={420}
+        rx={8}
+        ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 신촌 */}
+      <circle
+        cx={600}
+        cy={370}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 이대 */}
+      <circle
+        cx={650}
+        cy={325}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 아현 */}
+      <circle
+        cx={720}
+        cy={310}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 시청 */}
+      <rect
+        width={15}
+        height={30}
+        x={840}
+        y={290}
+        rx={8}
+        ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 을지로 입구 */}
+      <circle
+        cx={880}
+        cy={310}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 을지로 3가 */}
+      <rect
+        width={15}
+        height={30}
+        x={905}
+        y={300}
+        rx={8}
+        ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 신당 */}
+      <rect
+        width={15}
+        height={30}
+        x={1190}
+        y={290}
+        rx={8}
+        ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 상왕십리 */}
+      <circle
+        cx={1290}
+        cy={310}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 한양대 */}
+      <circle
+        cx={1480}
+        cy={324}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 뚝섬 */}
+      <circle
+        cx={1527}
+        cy={375}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 성수 */}
+      <rect
+        width={30}
+        height={15}
+        x={1530}
+        y={420}
+        rx={8}
+        ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 용답 */}
+      <circle
+        cx={1548}
+        cy={340}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 신답 */}
+      <circle
+        cx={1548}
+        cy={250}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 용두 */}
+      <circle
+        cx={1440}
+        cy={190}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 신설동 */}
+      <rect
+        width={15}
+        height={40}
+        x={1370}
+        y={170}
+        rx={8}
+        ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 건대입구 */}
+      <rect
+        width={30}
+        height={15}
+        x={1530}
+        y={480}
+        rx={8}
+        ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 구의 */}
+      <circle
+        cx={1540}
+        cy={540}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 강변 */}
+      <circle
+        cx={1540}
+        cy={600}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 잠실나루 */}
+      <circle
+        cx={1540}
+        cy={720}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 잠실 */}
+      <rect
+        width={30}
+        height={15}
+        x={1530}
+        y={810}
+        rx={8}
+        ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 잠실새내봉은사 */}
+      <circle
+        cx={1540}
+        cy={865}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 종합운동장 */}
+      <rect
+        width={30}
+        height={15}
+        x={1505}
+        y={910}
+        rx={8}
+        ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 삼성 */}
+      <circle
+        cx={1483}
+        cy={970}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 선릉 */}
+      <rect
+        width={15}
+        height={30}
+        x={1410}
+        y={975}
+        rx={8}
+        ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 역삼 */}
+      <circle
+        cx={1330}
+        cy={985}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 강남 */}
+      <rect
+        width={15}
+        height={30}
+        x={1230}
+        y={975}
+        rx={8}
+        ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 교대 */}
+      <rect
+        width={15}
+        height={30}
+        x={1130}
+        y={965}
+        rx={8}
+        ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 서초 */}
+      <circle
+        cx={1080}
+        cy={985}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 방배 */}
+      <circle
+        cx={1030}
+        cy={985}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 낙성대 */}
+      <circle
+        cx={915}
+        cy={985}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 서울대입구 */}
+      <circle
+        cx={855}
+        cy={985}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 봉천 */}
+      <circle
+        cx={795}
+        cy={985}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 신림 */}
+      <circle
+        cx={735}
+        cy={985}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 신대방 */}
+      <circle
+        cx={670}
+        cy={980}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 신림 */}
+      <circle
+        cx={620}
+        cy={950}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
+      {/* 대림 */}
+      <rect
+        width={30}
+        height={15}
+        x={580}
+        y={890}
+        rx={8}
+        ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#3DB44B"
+      />
     </symbol>
   );
 }
