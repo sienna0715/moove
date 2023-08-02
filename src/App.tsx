@@ -1,8 +1,9 @@
+import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
+// components
 import './App.css';
 import Line2 from './components/Line2';
 import Line4 from './components/Line4';
 import Line5 from './components/Line5';
-import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 
 function App() {
   return (
