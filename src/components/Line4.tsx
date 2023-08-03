@@ -679,10 +679,10 @@ function Line4() {
         상계
       </text>
       <text
-        x={1520}
-        y={18}
+        x={1490}
+        y={37}
         dx={20}
-        dy={5}
+        dy={35}
         fill="black"
         fontSize={20}
         fontWeight={800}
@@ -690,10 +690,10 @@ function Line4() {
         노원
       </text>
       <text
-        x={1460}
-        y={18}
+        x={1430}
+        y={37}
         dx={20}
-        dy={5}
+        dy={35}
         fill="black"
         fontSize={20}
         fontWeight={800}
@@ -737,13 +737,13 @@ function Line4() {
         x={1220}
         y={37}
         dx={-27}
-        dy={35}
+        dy={30}
         fill="gray"
         fontSize={20}
         fontWeight={800}
       >
         미아
-        <tspan dx={-44} dy={30}>
+        <tspan dx={-44} dy={20}>
           사거리
         </tspan>
       </text>
@@ -751,7 +751,7 @@ function Line4() {
         x={1160}
         y={37}
         dx={-17}
-        dy={-15}
+        dy={30}
         fill="gray"
         fontSize={20}
         fontWeight={800}
@@ -759,8 +759,8 @@ function Line4() {
         길음
       </text>
       <text
-        x={1100}
-        y={28}
+        x={1070}
+        y={45}
         dx={20}
         dy={40}
         fill="black"
@@ -768,16 +768,16 @@ function Line4() {
         fontWeight={800}
       >
         성신
-        <tspan dx={-34} dy={30}>
+        <tspan dx={-35} dy={25}>
           여대
         </tspan>
-        <tspan dx={-33} dy={30}>
+        <tspan dx={-35} dy={23}>
           입구
         </tspan>
       </text>
       <text
-        x={1038}
-        y={100}
+        x={965}
+        y={103}
         dx={10}
         dy={5}
         fill="gray"
@@ -785,7 +785,7 @@ function Line4() {
         fontWeight={800}
       >
         한성대
-        <tspan dx={-42} dy={30}>
+        <tspan dx={-35} dy={20}>
           입구
         </tspan>
       </text>
@@ -802,7 +802,7 @@ function Line4() {
       </text>
       <text
         x={1038}
-        y={220}
+        y={235}
         dx={15}
         dy={5}
         fill="black"
@@ -823,10 +823,10 @@ function Line4() {
         충무로
       </text>
       <text
-        x={910}
-        y={393}
+        x={900}
+        y={395}
         dx={0}
-        dy={25}
+        dy={29}
         fill="gray"
         fontSize={20}
         fontWeight={800}
@@ -834,8 +834,8 @@ function Line4() {
         명동
       </text>
       <text
-        x={870}
-        y={411}
+        x={820}
+        y={390}
         dx={5}
         dy={20}
         fill="gray"
@@ -845,7 +845,7 @@ function Line4() {
         회현
       </text>
       <text
-        x={820}
+        x={815}
         y={445}
         dx={60}
         dy={15}
@@ -856,8 +856,8 @@ function Line4() {
         서울역 KTX
       </text>
       <text
-        x={870}
-        y={492}
+        x={790}
+        y={520}
         dx={10}
         dy={0}
         fill="gray"
@@ -892,7 +892,7 @@ function Line4() {
         x={968}
         y={670}
         dx={-45}
-        dy={10}
+        dy={20}
         fill="black"
         fontSize={20}
         fontWeight={800}
@@ -903,7 +903,7 @@ function Line4() {
         x={968}
         y={770}
         dx={25}
-        dy={35}
+        dy={25}
         fill="black"
         fontSize={20}
         fontWeight={800}
@@ -914,19 +914,19 @@ function Line4() {
         x={968}
         y={870}
         dx={25}
-        dy={35}
+        dy={24}
         fill="black"
         fontSize={20}
         fontWeight={800}
       >
         총신대입구
-        <tspan dx={-85} dy={30}>
+        <tspan dx={-87} dy={23}>
           (이수)
         </tspan>
       </text>
       <text
-        x={968}
-        y={965}
+        x={910}
+        y={1005}
         dx={20}
         dy={5}
         fill="black"
@@ -1000,7 +1000,7 @@ function Line4() {
         fontWeight={800}
       >
         정부
-        <tspan dx={-52} dy={30}>
+        <tspan dx={-52} dy={23}>
           과천청사
         </tspan>
       </text>
@@ -1082,9 +1082,9 @@ function Line4() {
         대야미
       </text>
       <text
-        x={435}
+        x={440}
         y={1285}
-        dx={-55}
+        dx={-52}
         dy={8}
         fill="gray"
         fontSize={20}
@@ -1095,7 +1095,7 @@ function Line4() {
       <text
         x={435}
         y={1345}
-        dx={-70}
+        dx={-65}
         dy={8}
         fill="gray"
         fontSize={20}
@@ -1106,7 +1106,7 @@ function Line4() {
       <text
         x={415}
         y={1405}
-        dx={35}
+        dx={40}
         dy={13}
         fill="black"
         fontSize={20}
@@ -1117,7 +1117,7 @@ function Line4() {
       <text
         x={415}
         y={1465}
-        dx={35}
+        dx={40}
         dy={13}
         fill="black"
         fontSize={20}
@@ -1128,7 +1128,7 @@ function Line4() {
       <text
         x={415}
         y={1525}
-        dx={35}
+        dx={40}
         dy={13}
         fill="black"
         fontSize={20}
