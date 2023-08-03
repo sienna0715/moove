@@ -307,7 +307,7 @@ function Line5() {
         width={15}
         height={30}
         x={275}
-        y={585}
+        y={594}
         rx={8}
         ry={8}
         fill="white"
@@ -351,7 +351,7 @@ function Line5() {
         width={15}
         height={30}
         x={575}
-        y={585}
+        y={578}
         rx={8}
         ry={8}
         fill="white"
@@ -753,6 +753,184 @@ function Line5() {
         strokeWidth={5}
         stroke="#8300EB"
       />
+      {/* --------- station name --------- */}
+      <text x={0} y={40} fill="black" fontSize={20} fontWeight={800}>
+        방화
+      </text>
+      <text x={165} y={25} fill="gray" fontSize={20} fontWeight={800}>
+        개화산
+      </text>
+      <text x={185} y={130} fill="black" fontSize={20} fontWeight={800}>
+        김포공항
+      </text>
+      <text x={185} y={227} fill="gray" fontSize={20} fontWeight={800}>
+        송정
+      </text>
+      <text x={185} y={318} fill="gray" fontSize={20} fontWeight={800}>
+        마곡
+      </text>
+      <text x={185} y={407} fill="gray" fontSize={20} fontWeight={800}>
+        발산
+      </text>
+      <text x={185} y={497} fill="gray" fontSize={20} fontWeight={800}>
+        우장산
+      </text>
+      <text x={195} y={575} fill="gray" fontSize={20} fontWeight={800}>
+        화곡
+      </text>
+      <text x={257} y={585} fill="black" fontSize={20} fontWeight={800}>
+        까치산
+      </text>
+      <text x={318} y={585} fill="gray" fontSize={20} fontWeight={800}>
+        신정
+      </text>
+      <text x={377} y={585} fill="gray" fontSize={20} fontWeight={800}>
+        목동
+      </text>
+      <text x={429} y={585} fill="gray" fontSize={20} fontWeight={800}>
+        오목교
+      </text>
+      <text x={497} y={585} fill="gray" fontSize={20} fontWeight={800}>
+        양평
+      </text>
+      <text x={595} y={585} fill="black" fontSize={20} fontWeight={800}>
+        영등포구청
+      </text>
+      <text x={670} y={615} fill="gray" fontSize={20} fontWeight={800}>
+        영등포
+      </text>
+      <text x={670} y={634} fill="gray" fontSize={20} fontWeight={800}>
+        시장
+      </text>
+      <text x={710} y={655} fill="black" fontSize={20} fontWeight={800}>
+        신길
+      </text>
+      <text x={795} y={583} fill="black" fontSize={20} fontWeight={800}>
+        여의도
+      </text>
+      <text x={795} y={528} fill="gray" fontSize={20} fontWeight={800}>
+        여의나루
+      </text>
+      <text x={795} y={458} fill="gray" fontSize={20} fontWeight={800}>
+        마포
+      </text>
+      <text x={728} y={397} fill="black" fontSize={20} fontWeight={800}>
+        공덕
+      </text>
+      <text x={713} y={306} fill="gray" fontSize={20} fontWeight={800}>
+        애오개
+      </text>
+      <text x={712} y={195} fill="black" fontSize={20} fontWeight={800}>
+        충정로
+      </text>
+      <text x={794} y={108} fill="gray" fontSize={20} fontWeight={800}>
+        서대문
+      </text>
+      <text x={816} y={15} fill="gray" fontSize={20} fontWeight={800}>
+        광화문
+      </text>
+      <text x={910} y={80} fill="black" fontSize={20} fontWeight={800}>
+        종로3가
+      </text>
+      <text x={932} y={160} fill="black" fontSize={20} fontWeight={800}>
+        을지로
+      </text>
+      <text x={942} y={180} fill="black" fontSize={20} fontWeight={800}>
+        4가
+      </text>
+      <text x={1050} y={178} fill="black" fontSize={20} fontWeight={800}>
+        동대문역사
+      </text>
+      <text x={1050} y={198} fill="black" fontSize={20} fontWeight={800}>
+        문화공원
+      </text>
+      <text x={1180} y={315} fill="black" fontSize={20} fontWeight={800}>
+        청구
+      </text>
+      <text x={1240} y={300} fill="gray" fontSize={20} fontWeight={800}>
+        신금호
+      </text>
+      <text x={1330} y={260} fill="gray" fontSize={20} fontWeight={800}>
+        행당
+      </text>
+      <text x={1381} y={182} fill="black" fontSize={20} fontWeight={800}>
+        왕십리
+      </text>
+      <text x={1493} y={186} fill="gray" fontSize={20} fontWeight={800}>
+        마장
+      </text>
+      <text x={1590} y={186} fill="gray" fontSize={20} fontWeight={800}>
+        답십리
+      </text>
+      <text x={1680} y={227} fill="gray" fontSize={20} fontWeight={800}>
+        장한평
+      </text>
+      <text x={1718} y={315} fill="black" fontSize={20} fontWeight={800}>
+        군자
+      </text>
+      <text x={1713} y={429} fill="gray" fontSize={20} fontWeight={800}>
+        아차산
+      </text>
+      <text x={1713} y={538} fill="gray" fontSize={20} fontWeight={800}>
+        광나루
+      </text>
+      <text x={1738} y={644} fill="black" fontSize={20} fontWeight={800}>
+        천호
+      </text>
+      <text x={1888} y={733} fill="black" fontSize={20} fontWeight={800}>
+        강동
+      </text>
+      <text x={2005} y={657} fill="gray" fontSize={20} fontWeight={800}>
+        길동
+      </text>
+      <text x={2015} y={587} fill="gray" fontSize={20} fontWeight={800}>
+        굽은다리
+      </text>
+      <text x={2040} y={545} fill="gray" fontSize={20} fontWeight={800}>
+        명일
+      </text>
+      <text x={2067} y={486} fill="gray" fontSize={20} fontWeight={800}>
+        고덕
+      </text>
+      <text x={2118} y={486} fill="gray" fontSize={20} fontWeight={800}>
+        상일동
+      </text>
+      <text x={2186} y={486} fill="gray" fontSize={20} fontWeight={800}>
+        강일
+      </text>
+      <text x={2247} y={486} fill="gray" fontSize={20} fontWeight={800}>
+        미사
+      </text>
+      <text x={2298} y={486} fill="gray" fontSize={20} fontWeight={800}>
+        하남풍산
+      </text>
+      <text x={2310} y={570} fill="gray" fontSize={20} fontWeight={800}>
+        하남시청
+      </text>
+      <text x={2300} y={655} fill="black" fontSize={20} fontWeight={800}>
+        하남검단산
+      </text>
+      <text x={1963} y={733} fill="gray" fontSize={20} fontWeight={800}>
+        둔촌동
+      </text>
+      <text x={2123} y={769} fill="black" fontSize={20} fontWeight={800}>
+        올림픽공원
+      </text>
+      <text x={2115} y={852} fill="gray" fontSize={20} fontWeight={800}>
+        방이
+      </text>
+      <text x={2115} y={938} fill="black" fontSize={20} fontWeight={800}>
+        오금
+      </text>
+      <text x={2182} y={985} fill="gray" fontSize={20} fontWeight={800}>
+        개롱
+      </text>
+      <text x={2280} y={985} fill="gray" fontSize={20} fontWeight={800}>
+        거여
+      </text>
+      <text x={2375} y={985} fill="black" fontSize={20} fontWeight={800}>
+        마천
+      </text>
     </symbol>
   );
 }
