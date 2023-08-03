@@ -838,7 +838,7 @@ function Line5() {
       <text x={942} y={180} fill="black" fontSize={20} fontWeight={800}>
         4가
       </text>
-      <text x={1050} y={178} fill="black" fontSize={20} fontWeight={800}>
+      <text x={1050} y={175} fill="black" fontSize={20} fontWeight={800}>
         동대문역사
       </text>
       <text x={1050} y={198} fill="black" fontSize={20} fontWeight={800}>

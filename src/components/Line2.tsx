@@ -447,7 +447,7 @@ function Line2() {
         width={15}
         height={30}
         x={1130}
-        y={965}
+        y={975}
         rx={8}
         ry={8}
         fill="white"
@@ -680,28 +680,28 @@ function Line2() {
       <text
         x={880}
         y={310}
-        dx={-35}
+        dx={-58}
         dy={35}
         fill="gray"
         fontSize={20}
         fontWeight={800}
       >
         을지로
-        <tspan dx={-50} dy={30}>
+        <tspan dx={-45} dy={25}>
           입구
         </tspan>
       </text>
       <text
-        x={905}
+        x={880}
         y={310}
-        dx={20}
-        dy={35}
+        dx={8}
+        dy={45}
         fill="black"
         fontSize={20}
         fontWeight={800}
       >
         을지로
-        <tspan dx={-50} dy={30}>
+        <tspan dx={-45} dy={21}>
           3가
         </tspan>
       </text>
@@ -806,7 +806,7 @@ function Line2() {
       </text>
       <text
         x={1530}
-        y={480}
+        y={470}
         dx={40}
         dy={25}
         fill="black"
@@ -849,9 +849,9 @@ function Line2() {
         잠실나루
       </text>
       <text
-        x={1530}
+        x={1555}
         y={810}
-        dx={-50}
+        dx={15}
         dy={15}
         fill="black"
         fontSize={20}
@@ -861,28 +861,14 @@ function Line2() {
       </text>
       <text
         x={1540}
-        y={720}
+        y={865}
         dx={15}
         dy={8}
         fill="gray"
         fontSize={20}
         fontWeight={800}
       >
-        잠실나루
-      </text>
-      <text
-        x={1540}
-        y={865}
-        dx={-100}
-        dy={5}
-        fill="gray"
-        fontSize={20}
-        fontWeight={800}
-      >
-        잠실시내
-        <tspan dx={-60} dy={30}>
-          봉은사
-        </tspan>
+        잠실새내
       </text>
       <text
         x={1505}
@@ -931,7 +917,7 @@ function Line2() {
       <text
         x={1230}
         y={975}
-        dx={-13}
+        dx={-12}
         dy={-10}
         fill="black"
         fontSize={20}
@@ -941,9 +927,9 @@ function Line2() {
       </text>
       <text
         x={1130}
-        y={965}
-        dx={20}
-        dy={10}
+        y={975}
+        dx={-10}
+        dy={-10}
         fill="black"
         fontSize={20}
         fontWeight={800}
@@ -954,7 +940,7 @@ function Line2() {
         x={1080}
         y={985}
         dx={-20}
-        dy={35}
+        dy={-15}
         fill="gray"
         fontSize={20}
         fontWeight={800}
@@ -965,7 +951,7 @@ function Line2() {
         x={1030}
         y={985}
         dx={-20}
-        dy={35}
+        dy={-15}
         fill="gray"
         fontSize={20}
         fontWeight={800}
@@ -975,7 +961,7 @@ function Line2() {
       <text
         x={915}
         y={985}
-        dx={-32}
+        dx={-26}
         dy={-15}
         fill="gray"
         fontSize={20}
@@ -984,7 +970,7 @@ function Line2() {
         낙성대
       </text>
       <text
-        x={855}
+        x={840}
         y={985}
         dx={-30}
         dy={35}
@@ -992,10 +978,7 @@ function Line2() {
         fontSize={20}
         fontWeight={800}
       >
-        서울대
-        <tspan dx={-50} dy={30}>
-          입구
-        </tspan>
+        서울대입구
       </text>
       <text
         x={795}
@@ -1009,7 +992,7 @@ function Line2() {
         봉천
       </text>
       <text
-        x={735}
+        x={737}
         y={985}
         dx={-20}
         dy={-15}
@@ -1022,8 +1005,8 @@ function Line2() {
       <text
         x={670}
         y={985}
-        dx={-20}
-        dy={-25}
+        dx={-30}
+        dy={30}
         fill="gray"
         fontSize={20}
         fontWeight={800}
@@ -1031,24 +1014,24 @@ function Line2() {
         신대방
       </text>
       <text
-        x={620}
+        x={525}
         y={950}
-        dx={-110}
+        dx={0}
         dy={25}
         fill="gray"
         fontSize={20}
         fontWeight={800}
       >
         구로
-        <tspan dx={-100} dy={30}>
+        <tspan dx={-85} dy={20}>
           디지털단지
         </tspan>
       </text>
       <text
-        x={580}
-        y={890}
+        x={600}
+        y={900}
         dx={15}
-        dy={-10}
+        dy={4}
         fill="black"
         fontSize={20}
         fontWeight={800}
