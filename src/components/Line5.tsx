@@ -796,7 +796,7 @@ function Line5() {
       <text x={595} y={585} fill="black" fontSize={20} fontWeight={800}>
         영등포구청
       </text>
-      <text x={670} y={615} fill="gray" fontSize={20} fontWeight={800}>
+      <text x={670} y={612} fill="gray" fontSize={20} fontWeight={800}>
         영등포
       </text>
       <text x={670} y={634} fill="gray" fontSize={20} fontWeight={800}>
