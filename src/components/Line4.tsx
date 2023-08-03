@@ -1,6 +1,20 @@
 function Line4() {
   return (
     <symbol id="line4SvgContainer">
+      <path
+        d="M1640,37 C1760,37 1760,157 1760,157"
+        fill="none"
+        stroke="#08A5E3"
+        strokeWidth="8"
+      />
+      <line
+        x1={1760}
+        y1={157}
+        x2={1760}
+        y2={220}
+        strokeWidth="8"
+        stroke="#08A5E3"
+      />
       <line
         x1={1100}
         y1={37}
@@ -98,6 +112,33 @@ function Line4() {
         strokeWidth="8"
       />
       {/* station */}
+      {/* 진접 */}
+      <circle
+        cx={1760}
+        cy={220}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#08A5E3"
+      />
+      {/* 오남 */}
+      <circle
+        cx={1760}
+        cy={157}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#08A5E3"
+      />
+      {/* 별내별가람 */}
+      <circle
+        cx={1730}
+        cy={75}
+        r={5}
+        fill="white"
+        strokeWidth={5}
+        stroke="#08A5E3"
+      />
       {/* 당고개 */}
       <circle
         cx={1640}
@@ -248,7 +289,7 @@ function Line4() {
         strokeWidth={5}
         stroke="#08A5E3"
       />
-      {/* 화현 */}
+      {/* 회현 */}
       <circle
         cx={870}
         cy={411}
@@ -323,7 +364,7 @@ function Line4() {
         strokeWidth={5}
         stroke="#08A5E3"
       />
-      {/* 이촌 */}
+      {/* 총신대입구 */}
       <rect
         width={15}
         height={30}
@@ -335,7 +376,7 @@ function Line4() {
         strokeWidth={5}
         stroke="#08A5E3"
       />
-      {/* 총신대입구 */}
+      {/* 사당 */}
       <rect
         width={15}
         height={30}
@@ -428,23 +469,23 @@ function Line4() {
         strokeWidth={5}
         stroke="#08A5E3"
       />
-      {/* 산본 */}
-      <circle
-        cx={615}
-        cy={1225}
-        r={5}
-        fill="white"
-        strokeWidth={5}
-        stroke="#08A5E3"
-      />
       {/* 금정 */}
       <rect
         width={15}
         height={30}
-        x={545}
+        x={605}
         y={1215}
         rx={8}
         ry={8}
+        fill="white"
+        strokeWidth={5}
+        stroke="#08A5E3"
+      />
+      {/* 산본 */}
+      <circle
+        cx={545}
+        cy={1225}
+        r={5}
         fill="white"
         strokeWidth={5}
         stroke="#08A5E3"
@@ -581,6 +622,575 @@ function Line4() {
         strokeWidth={5}
         stroke="#08A5E3"
       />
+      {/* station name */}
+      <text
+        x={1760}
+        y={220}
+        dx={15}
+        dy={7}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        진접
+      </text>
+      <text
+        x={1760}
+        y={157}
+        dx={15}
+        dy={7}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        오남
+      </text>
+      <text
+        x={1730}
+        y={75}
+        dx={5}
+        dy={-10}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        별내별가람
+      </text>
+      <text
+        x={1640}
+        y={37}
+        dx={-26}
+        dy={30}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        당고개
+      </text>
+      <text
+        x={1580}
+        y={37}
+        dx={-17}
+        dy={30}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        상계
+      </text>
+      <text
+        x={1520}
+        y={18}
+        dx={20}
+        dy={5}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        노원
+      </text>
+      <text
+        x={1460}
+        y={18}
+        dx={20}
+        dy={5}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        창동
+      </text>
+      <text
+        x={1400}
+        y={37}
+        dx={-17}
+        dy={30}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        쌍문
+      </text>
+      <text
+        x={1340}
+        y={37}
+        dx={-17}
+        dy={30}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        수유
+      </text>
+      <text
+        x={1280}
+        y={37}
+        dx={-17}
+        dy={30}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        미아
+      </text>
+      <text
+        x={1220}
+        y={37}
+        dx={-27}
+        dy={35}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        미아
+        <tspan dx={-44} dy={30}>
+          사거리
+        </tspan>
+      </text>
+      <text
+        x={1160}
+        y={37}
+        dx={-17}
+        dy={-15}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        길음
+      </text>
+      <text
+        x={1100}
+        y={28}
+        dx={20}
+        dy={40}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        성신
+        <tspan dx={-34} dy={30}>
+          여대
+        </tspan>
+        <tspan dx={-33} dy={30}>
+          입구
+        </tspan>
+      </text>
+      <text
+        x={1038}
+        y={100}
+        dx={10}
+        dy={5}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        한성대
+        <tspan dx={-42} dy={30}>
+          입구
+        </tspan>
+      </text>
+      <text
+        x={1038}
+        y={160}
+        dx={10}
+        dy={7}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        혜화
+      </text>
+      <text
+        x={1038}
+        y={220}
+        dx={15}
+        dy={5}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        동대문
+      </text>
+      <text
+        x={965}
+        y={385}
+        dx={-10}
+        dy={40}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        충무로
+      </text>
+      <text
+        x={910}
+        y={393}
+        dx={0}
+        dy={25}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        명동
+      </text>
+      <text
+        x={870}
+        y={411}
+        dx={5}
+        dy={20}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        회현
+      </text>
+      <text
+        x={820}
+        y={445}
+        dx={60}
+        dy={15}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        서울역 KTX
+      </text>
+      <text
+        x={870}
+        y={492}
+        dx={10}
+        dy={0}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        숙대입구
+      </text>
+      <text
+        x={895}
+        y={501}
+        dx={-10}
+        dy={40}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        삼각지
+      </text>
+      <text
+        x={975}
+        y={570}
+        dx={15}
+        dy={7}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        신용산
+      </text>
+      <text
+        x={968}
+        y={670}
+        dx={-45}
+        dy={10}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        이촌
+      </text>
+      <text
+        x={968}
+        y={770}
+        dx={25}
+        dy={35}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        동작
+      </text>
+      <text
+        x={968}
+        y={870}
+        dx={25}
+        dy={35}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        총신대입구
+        <tspan dx={-85} dy={30}>
+          (이수)
+        </tspan>
+      </text>
+      <text
+        x={968}
+        y={965}
+        dx={20}
+        dy={5}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        사당
+      </text>
+      <text
+        x={975}
+        y={1040}
+        dx={15}
+        dy={7}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        남태령
+      </text>
+      <text
+        x={975}
+        y={1100}
+        dx={15}
+        dy={7}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        선바위
+      </text>
+      <text
+        x={975}
+        y={1165}
+        dx={15}
+        dy={7}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        경마공원
+      </text>
+      <text
+        x={960}
+        y={1206}
+        dx={10}
+        dy={20}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        대공원
+      </text>
+      <text
+        x={915}
+        y={1225}
+        dx={-5}
+        dy={30}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        과천
+      </text>
+      <text
+        x={855}
+        y={1225}
+        dx={-35}
+        dy={35}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        정부
+        <tspan dx={-52} dy={30}>
+          과천청사
+        </tspan>
+      </text>
+      <text
+        x={795}
+        y={1225}
+        dx={-25}
+        dy={-20}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        인덕원
+      </text>
+      <text
+        x={735}
+        y={1225}
+        dx={-17}
+        dy={35}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        평촌
+      </text>
+      <text
+        x={675}
+        y={1225}
+        dx={-20}
+        dy={-20}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        범계
+      </text>
+      <text
+        x={605}
+        y={1225}
+        dx={20}
+        dy={25}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        금정
+      </text>
+      <text
+        x={545}
+        y={1225}
+        dx={-18}
+        dy={-20}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        산본
+      </text>
+      <text
+        x={495}
+        y={1225}
+        dx={-28}
+        dy={-20}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        수리산
+      </text>
+      <text
+        x={450}
+        y={1244}
+        dx={-55}
+        dy={-15}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        대야미
+      </text>
+      <text
+        x={435}
+        y={1285}
+        dx={-55}
+        dy={8}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        반월
+      </text>
+      <text
+        x={435}
+        y={1345}
+        dx={-70}
+        dy={8}
+        fill="gray"
+        fontSize={20}
+        fontWeight={800}
+      >
+        상록수
+      </text>
+      <text
+        x={415}
+        y={1405}
+        dx={35}
+        dy={13}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        한대앞
+      </text>
+      <text
+        x={415}
+        y={1465}
+        dx={35}
+        dy={13}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        중앙
+      </text>
+      <text
+        x={415}
+        y={1525}
+        dx={35}
+        dy={13}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        고잔
+      </text>
+      <text
+        x={400}
+        y={1562}
+        dx={25}
+        dy={40}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        초지
+      </text>
+      <text
+        x={360}
+        y={1592}
+        dx={-10}
+        dy={55}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        안산
+      </text>
+      <text
+        x={310}
+        y={1592}
+        dx={-55}
+        dy={55}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        신길온천
+      </text>
+      <text
+        x={273}
+        y={1562}
+        dx={-40}
+        dy={50}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        정왕
+      </text>
+      <text
+        x={245}
+        y={1525}
+        dx={-60}
+        dy={15}
+        fill="black"
+        fontSize={20}
+        fontWeight={800}
+      >
+        오이도
+      </text>
     </symbol>
   );
 }
