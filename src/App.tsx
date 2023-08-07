@@ -13,7 +13,7 @@ function App() {
       <div className="subwayContainer">
         <TransformWrapper initialScale={1} minScale={1} maxScale={10}>
           <TransformComponent>
-            <svg width={1500} height={1200} viewBox='0 -430 2500 2500'>
+            <svg width={1500} height={1200} viewBox="0 -430 2500 2500">
               <Line2 />
               <Line4 />
               <Line5 />

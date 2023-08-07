@@ -1,4 +1,16 @@
+import { useEffect, useRef } from 'react';
+
 function Line4() {
+  const circleRef = useRef<SVGCircleElement>(null);
+
+  useEffect(() => {
+    const svg = circleRef.current;
+    if (svg) {
+      svg.addEventListener('click', () => {
+        console.log('ok');
+      });
+    }
+  }, []);
   return (
     <symbol id="line4SvgContainer">
       <path
@@ -120,6 +132,7 @@ function Line4() {
         fill="white"
         strokeWidth={5}
         stroke="#08A5E3"
+        ref={circleRef}
       />
       {/* 오남 */}
       <circle
