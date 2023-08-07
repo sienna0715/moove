@@ -784,7 +784,7 @@ function Line4() {
         <tspan dx={-35} dy={25}>
           여대
         </tspan>
-        <tspan dx={-35} dy={23}>
+        <tspan dx={-35} dy={25}>
           입구
         </tspan>
       </text>
