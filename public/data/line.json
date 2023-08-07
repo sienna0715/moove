@@ -1,0 +1,56 @@
+{
+  "line2": {
+    "path": [
+      {
+        "d": ""
+      }
+    ],
+    "line": [
+      {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 0
+      }
+    ],
+    "circle": [
+      {
+        "stationName": "",
+        "cx": 0,
+        "cy": 0
+      }
+    ],
+    "rect": [
+      {
+        "stationName": "",
+        "width": 0,
+        "height": 0,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "text": [
+      {
+        "value": "",
+        "x": 0,
+        "y": 0,
+        "dx": 0,
+        "dy": 0
+      }
+    ]
+  },
+  "line4": {
+    "path": [],
+    "line": [],
+    "circle": [],
+    "rect": [],
+    "text": []
+  },
+  "line5": {
+    "path": [],
+    "line": [],
+    "circle": [],
+    "rect": [],
+    "text": []
+  }
+}
