@@ -1,16 +1,4 @@
-import { useRef, useEffect } from 'react';
-
 function Line5() {
-  const circleRef = useRef<SVGLineElement>(null);
-
-  useEffect(() => {
-    const svg = circleRef.current;
-    if (svg) {
-      svg.addEventListener('click', () => {
-        console.log('ok');
-      });
-    }
-  }, []);
   return (
     <symbol id="line5SvgContainer">
       <line
@@ -20,7 +8,6 @@ function Line5() {
         y2={10}
         strokeWidth={8}
         stroke="#8300EB"
-        ref={circleRef}
       />
       <path
         d="M120 10 C 120 10, 170 10, 170 80"

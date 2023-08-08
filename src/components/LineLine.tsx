@@ -1,14 +1,6 @@
-interface ILin4LineProps {
-  lineData: ILineInfo;
-}
+import { ILineProps } from "../interfaces/interfaces";
 
-interface ILineInfo {
-  x1: number;
-  y1: number;
-  x2: number;
-  y2: number;
-}
-function LineLine({ lineData }: ILin4LineProps) {
+function LineLine({ lineData }: ILineProps) {
   return (
     <line
       x1={lineData.x1}
