@@ -8,7 +8,7 @@ function LineLine({ lineData }: ILineProps) {
       x2={lineData.x2}
       y2={lineData.y2}
       strokeWidth="8"
-      stroke="#08A5E3"
+      stroke={lineData.color}
     />
   );
 }

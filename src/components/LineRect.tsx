@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { IRectProps } from '../interfaces/interfaces';
 
-function Lin4Rect({ rectData }: IRectProps) {
+function LineRect({ rectData }: IRectProps) {
   const rectRef = useRef<SVGRectElement>(null);
 
   useEffect(() => {
@@ -22,10 +22,10 @@ function Lin4Rect({ rectData }: IRectProps) {
       ry={8}
       fill="white"
       strokeWidth={5}
-      stroke="#08A5E3"
+      stroke={rectData.color}
       ref={rectRef}
     />
   );
 }
 
-export default Lin4Rect;
+export default LineRect;
