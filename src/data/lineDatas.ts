@@ -694,30 +694,39 @@ const lineDatas = {
     path: [
       {
         d: 'M1640,37 C1760,37 1760,157 1760,157',
+        color: '#08A5E3',
       },
       {
         d: 'M1038,100 C1038,37 1100,37 1100,37',
+        color: '#08A5E3',
       },
       {
         d: 'M1038,330 C1038,393 975,393 975,393',
+        color: '#08A5E3',
       },
       {
         d: 'M915,393 C855,393 855,450 855,450',
+        color: '#08A5E3',
       },
       {
         d: 'M855,450 C855,510 915,510 915,510',
+        color: '#08A5E3',
       },
       {
         d: 'M915,510 C975,510 975,570 975,570',
+        color: '#08A5E3',
       },
       {
         d: 'M975,1165 C975,1225 915,1225 915,1225',
+        color: '#08A5E3',
       },
       {
         d: 'M495,1225 C435,1225 435,1285 435,1285',
+        color: '#08A5E3',
       },
       {
         d: 'M255,1525 C255,1645 435,1645 435,1525',
+        color: '#08A5E3',
       },
     ],
     line: [
@@ -726,42 +735,49 @@ const lineDatas = {
         y1: 157,
         x2: 1760,
         y2: 220,
+        color: '#08A5E3',
       },
       {
         x1: 1100,
         y1: 37,
         x2: 1640,
         y2: 37,
+        color: '#08A5E3',
       },
       {
         x1: 1038,
         y1: 100,
         x2: 1038,
         y2: 290,
+        color: '#08A5E3',
       },
       {
         x1: 975,
         y1: 393,
         x2: 915,
         y2: 393,
+        color: '#08A5E3',
       },
       {
         x1: 975,
         y1: 570,
         x2: 975,
         y2: 1165,
+        color: '#08A5E3',
       },
       {
         x1: 495,
         y1: 1225,
         x2: 915,
         y2: 1225,
+        color: '#08A5E3',
       },
       {
         x1: 435,
         y1: 1525,
         x2: 435,
         y2: 1285,
+        color: '#08A5E3',
       },
     ],
     circle: [
@@ -769,151 +785,181 @@ const lineDatas = {
         stationName: '진접',
         cx: 1760,
         cy: 220,
+        color: '#08A5E3',
       },
       {
         stationName: '오남',
         cx: 1760,
         cy: 157,
+        color: '#08A5E3',
       },
       {
         stationName: '별내별가람',
         cx: 1730,
         cy: 75,
+        color: '#08A5E3',
       },
       {
         stationName: '당고개',
         cx: 1640,
         cy: 37,
+        color: '#08A5E3',
       },
       {
         stationName: '상계',
         cx: 1580,
         cy: 37,
+        color: '#08A5E3',
       },
       {
         stationName: '쌍문',
         cx: 1400,
         cy: 37,
+        color: '#08A5E3',
       },
       {
         stationName: '수유',
         cx: 1340,
         cy: 37,
+        color: '#08A5E3',
       },
       {
         stationName: '미아',
         cx: 1280,
         cy: 37,
+        color: '#08A5E3',
       },
       {
         stationName: '미아사거리',
         cx: 1220,
         cy: 37,
+        color: '#08A5E3',
       },
       {
         stationName: '길음',
         cx: 1160,
         cy: 37,
+        color: '#08A5E3',
       },
       {
         stationName: '한성대입구',
         cx: 1038,
         cy: 100,
+        color: '#08A5E3',
       },
       {
         stationName: '혜화',
         cx: 1038,
         cy: 160,
+        color: '#08A5E3',
       },
       {
         stationName: '명동',
         cx: 910,
         cy: 393,
+        color: '#08A5E3',
       },
       {
         stationName: '회현',
         cx: 870,
         cy: 411,
+        color: '#08A5E3',
       },
       {
         stationName: '숙대입구',
         cx: 870,
         cy: 492,
+        color: '#08A5E3',
       },
       {
         stationName: '신용산',
         cx: 975,
         cy: 570,
+        color: '#08A5E3',
       },
       {
         stationName: '남태령',
         cx: 975,
         cy: 1040,
+        color: '#08A5E3',
       },
       {
         stationName: '선바위',
         cx: 975,
         cy: 1100,
+        color: '#08A5E3',
       },
       {
         stationName: '경마공원',
         cx: 975,
         cy: 1165,
+        color: '#08A5E3',
       },
       {
         stationName: '대공원',
         cx: 960,
         cy: 1206,
+        color: '#08A5E3',
       },
       {
         stationName: '과천',
         cx: 915,
         cy: 1225,
+        color: '#08A5E3',
       },
       {
         stationName: '정부과천청사',
         cx: 855,
         cy: 1225,
+        color: '#08A5E3',
       },
       {
         stationName: '인덕원',
         cx: 795,
         cy: 1225,
+        color: '#08A5E3',
       },
       {
         stationName: '평촌',
         cx: 735,
         cy: 1225,
+        color: '#08A5E3',
       },
       {
         stationName: '범계',
         cx: 675,
         cy: 1225,
+        color: '#08A5E3',
       },
       {
         stationName: '산본',
         cx: 545,
         cy: 1225,
+        color: '#08A5E3',
       },
       {
         stationName: '수리산',
         cx: 495,
         cy: 1225,
+        color: '#08A5E3',
       },
       {
         stationName: '대야미',
         cx: 450,
         cy: 1244,
+        color: '#08A5E3',
       },
       {
         stationName: '반월',
         cx: 435,
         cy: 1285,
+        color: '#08A5E3',
       },
       {
         stationName: '상록수',
         cx: 435,
         cy: 1345,
+        color: '#08A5E3',
       },
     ],
     rect: [
@@ -923,6 +969,7 @@ const lineDatas = {
         height: 30,
         x: 1520,
         y: 18,
+        color: '#08A5E3',
       },
       {
         stationName: '창동',
@@ -930,6 +977,7 @@ const lineDatas = {
         height: 30,
         x: 1460,
         y: 18,
+        color: '#08A5E3',
       },
       {
         stationName: '성신여대입구',
@@ -937,6 +985,7 @@ const lineDatas = {
         height: 30,
         x: 1100,
         y: 28,
+        color: '#08A5E3',
       },
       {
         stationName: '동대문',
@@ -944,6 +993,7 @@ const lineDatas = {
         height: 30,
         x: 1031,
         y: 220,
+        color: '#08A5E3',
       },
       {
         stationName: '충무로',
@@ -951,6 +1001,7 @@ const lineDatas = {
         height: 15,
         x: 965,
         y: 385,
+        color: '#08A5E3',
       },
       {
         stationName: '서울역',
@@ -958,6 +1009,7 @@ const lineDatas = {
         height: 15,
         x: 820,
         y: 445,
+        color: '#08A5E3',
       },
       {
         stationName: '삼각지',
@@ -965,6 +1017,7 @@ const lineDatas = {
         height: 15,
         x: 895,
         y: 501,
+        color: '#08A5E3',
       },
       {
         stationName: '이촌',
@@ -972,6 +1025,7 @@ const lineDatas = {
         height: 30,
         x: 968,
         y: 670,
+        color: '#08A5E3',
       },
       {
         stationName: '동작',
@@ -979,6 +1033,7 @@ const lineDatas = {
         height: 30,
         x: 968,
         y: 770,
+        color: '#08A5E3',
       },
       {
         stationName: '총신대입구',
@@ -986,6 +1041,7 @@ const lineDatas = {
         height: 30,
         x: 968,
         y: 870,
+        color: '#08A5E3',
       },
       {
         stationName: '사당',
@@ -993,6 +1049,7 @@ const lineDatas = {
         height: 30,
         x: 968,
         y: 965,
+        color: '#08A5E3',
       },
       {
         stationName: '금정',
@@ -1000,6 +1057,7 @@ const lineDatas = {
         height: 30,
         x: 605,
         y: 1215,
+        color: '#08A5E3',
       },
       {
         stationName: '한대앞',
@@ -1007,6 +1065,7 @@ const lineDatas = {
         height: 15,
         x: 415,
         y: 1405,
+        color: '#08A5E3',
       },
       {
         stationName: '중앙',
@@ -1014,6 +1073,7 @@ const lineDatas = {
         height: 15,
         x: 415,
         y: 1465,
+        color: '#08A5E3',
       },
       {
         stationName: '고잔',
@@ -1021,6 +1081,7 @@ const lineDatas = {
         height: 15,
         x: 415,
         y: 1525,
+        color: '#08A5E3',
       },
       {
         stationName: '초지',
@@ -1028,6 +1089,7 @@ const lineDatas = {
         height: 40,
         x: 400,
         y: 1562,
+        color: '#08A5E3',
       },
       {
         stationName: '안산',
@@ -1035,6 +1097,7 @@ const lineDatas = {
         height: 30,
         x: 360,
         y: 1592,
+        color: '#08A5E3',
       },
       {
         stationName: '신길온천',
@@ -1042,6 +1105,7 @@ const lineDatas = {
         height: 30,
         x: 310,
         y: 1592,
+        color: '#08A5E3',
       },
       {
         stationName: '정왕',
@@ -1049,6 +1113,7 @@ const lineDatas = {
         height: 40,
         x: 273,
         y: 1562,
+        color: '#08A5E3',
       },
       {
         stationName: '오이도',
@@ -1056,6 +1121,7 @@ const lineDatas = {
         height: 15,
         x: 245,
         y: 1525,
+        color: '#08A5E3',
       },
     ],
     text: [
@@ -1481,48 +1547,63 @@ const lineDatas = {
     path: [
       {
         d: 'M120 10 C 120 10, 170 10, 170 80',
+        color: '#8300EB',
       },
       {
         d: 'M170 550 C 170 550, 170 600, 250 600',
+        color: '#8300EB',
       },
       {
         d: 'M600 600 C 600 600, 635 600, 675 650 S 780 680, 780 600',
+        color: '#8300EB',
       },
       {
         d: 'M780 80 C 780 80, 780 30, 830 30',
+        color: '#8300EB',
       },
       {
         d: 'M850 30 C 850 30, 900 30, 900 80',
+        color: '#8300EB',
       },
       {
         d: 'M900 150 C 900 150, 900 200, 950 200',
+        color: '#8300EB',
       },
       {
         d: 'M1000 200 C 1060 200, 1100 270, 1150 270',
+        color: '#8300EB',
       },
       {
         d: 'M1250 270 C 1300 270, 1350 200, 1400 200',
+        color: '#8300EB',
       },
       {
         d: 'M1600 200 C 1600 200, 1700 200, 1700 300',
+        color: '#8300EB',
       },
       {
         d: 'M1700 600 C 1700 600, 1700 700, 1800 700',
+        color: '#8300EB',
       },
       {
         d: 'M1900 700 C 1900 700, 2000 700, 2000 600',
+        color: '#8300EB',
       },
       {
         d: 'M2000 600 C 2000 600, 2000 500, 2100 500',
+        color: '#8300EB',
       },
       {
         d: 'M2300 500 C 2300 500, 2400 500, 2400 600',
+        color: '#8300EB',
       },
       {
         d: 'M2000 700 C 2000 700, 2100 700, 2100 800',
+        color: '#8300EB',
       },
       {
         d: 'M2100 930 C 2100 930, 2100 1000, 2200 1000',
+        color: '#8300EB',
       },
     ],
     line: [
@@ -1531,96 +1612,112 @@ const lineDatas = {
         y1: 10,
         x2: 120,
         y2: 10,
+        color: '#8300EB',
       },
       {
         x1: 170,
         y1: 80,
         x2: 170,
         y2: 550,
+        color: '#8300EB',
       },
       {
         x1: 250,
         y1: 600,
         x2: 600,
         y2: 600,
+        color: '#8300EB',
       },
       {
         x1: 780,
         y1: 80,
         x2: 780,
         y2: 600,
+        color: '#8300EB',
       },
       {
         x1: 830,
         y1: 30,
         x2: 850,
         y2: 30,
+        color: '#8300EB',
       },
       {
         x1: 900,
         y1: 80,
         x2: 900,
         y2: 150,
+        color: '#8300EB',
       },
       {
         x1: 950,
         y1: 200,
         x2: 1000,
         y2: 200,
+        color: '#8300EB',
       },
       {
         x1: 1150,
         y1: 270,
         x2: 1250,
         y2: 270,
+        color: '#8300EB',
       },
       {
         x1: 1400,
         y1: 200,
         x2: 1600,
         y2: 200,
+        color: '#8300EB',
       },
       {
         x1: 1700,
         y1: 300,
         x2: 1700,
         y2: 600,
+        color: '#8300EB',
       },
       {
         x1: 1800,
         y1: 700,
         x2: 2000,
         y2: 700,
+        color: '#8300EB',
       },
       {
         x1: 2000,
         y1: 610,
         x2: 2000,
         y2: 600,
+        color: '#8300EB',
       },
       {
         x1: 2100,
         y1: 500,
         x2: 2300,
         y2: 500,
+        color: '#8300EB',
       },
       {
         x1: 2400,
         y1: 600,
         x2: 2400,
         y2: 650,
+        color: '#8300EB',
       },
       {
         x1: 2100,
         y1: 800,
         x2: 2100,
         y2: 930,
+        color: '#8300EB',
       },
       {
         x1: 2200,
         y1: 1000,
         x2: 2400,
         y2: 1000,
+        color: '#8300EB',
       },
     ],
     circle: [
@@ -1628,226 +1725,271 @@ const lineDatas = {
         stationName: '방화',
         cx: 10,
         cy: 10,
+        color: '#8300EB',
       },
       {
         stationName: '방화',
         cx: 10,
         cy: 10,
+        color: '#8300EB',
       },
       {
         stationName: '방화',
         cx: 10,
         cy: 10,
+        color: '#8300EB',
       },
       {
         stationName: '방화',
         cx: 10,
         cy: 10,
+        color: '#8300EB',
       },
       {
         stationName: '방화',
         cx: 10,
         cy: 10,
+        color: '#8300EB',
       },
       {
         stationName: '방화',
         cx: 10,
         cy: 10,
+        color: '#8300EB',
       },
       {
         stationName: '방화',
         cx: 10,
         cy: 10,
+        color: '#8300EB',
       },
       {
         stationName: '개화산',
         cx: 151,
         cy: 25,
+        color: '#8300EB',
       },
       {
         stationName: '송정',
         cx: 170,
         cy: 220,
+        color: '#8300EB',
       },
       {
         stationName: '마곡',
         cx: 170,
         cy: 310,
+        color: '#8300EB',
       },
       {
         stationName: '발산',
         cx: 170,
         cy: 400,
+        color: '#8300EB',
       },
       {
         stationName: '우장산',
         cx: 170,
         cy: 490,
+        color: '#8300EB',
       },
       {
         stationName: '화곡',
         cx: 185,
         cy: 580,
+        color: '#8300EB',
       },
       {
         stationName: '신정',
         cx: 335,
         cy: 600,
+        color: '#8300EB',
       },
       {
         stationName: '목동',
         cx: 395,
         cy: 600,
+        color: '#8300EB',
       },
       {
         stationName: '오목교',
         cx: 455,
         cy: 600,
+        color: '#8300EB',
       },
       {
         stationName: '양평',
         cx: 515,
         cy: 600,
+        color: '#8300EB',
       },
       {
         stationName: '영등포시장',
         cx: 660,
         cy: 634,
+        color: '#8300EB',
       },
       {
         stationName: '여의나루',
         cx: 780,
         cy: 520,
+        color: '#8300EB',
       },
       {
         stationName: '마포',
         cx: 780,
         cy: 450,
+        color: '#8300EB',
       },
       {
         stationName: '애오개',
         cx: 780,
         cy: 300,
+        color: '#8300EB',
       },
       {
         stationName: '서대문',
         cx: 780,
         cy: 100,
+        color: '#8300EB',
       },
       {
         stationName: '광화문',
         cx: 840,
         cy: 30,
+        color: '#8300EB',
       },
       {
         stationName: '신금호',
         cx: 1250,
         cy: 270,
+        color: '#8300EB',
       },
       {
         stationName: '행당',
         cx: 1320,
         cy: 240,
+        color: '#8300EB',
       },
       {
         stationName: '마장',
         cx: 1510,
         cy: 200,
+        color: '#8300EB',
       },
       {
         stationName: '답십리',
         cx: 1590,
         cy: 200,
+        color: '#8300EB',
       },
       {
         stationName: '장한평',
         cx: 1670,
         cy: 227,
+        color: '#8300EB',
       },
       {
         stationName: '아차산',
         cx: 1700,
         cy: 420,
+        color: '#8300EB',
       },
       {
         stationName: '광나루',
         cx: 1700,
         cy: 530,
+        color: '#8300EB',
       },
       {
         stationName: '길동',
         cx: 1990,
         cy: 650,
+        color: '#8300EB',
       },
       {
         stationName: '굽은다리',
         cx: 2002,
         cy: 580,
+        color: '#8300EB',
       },
       {
         stationName: '명일',
         cx: 2030,
         cy: 525,
+        color: '#8300EB',
       },
       {
         stationName: '고덕',
         cx: 2085,
         cy: 500,
+        color: '#8300EB',
       },
       {
         stationName: '상일동',
         cx: 2145,
         cy: 500,
+        color: '#8300EB',
       },
       {
         stationName: '강일',
         cx: 2205,
         cy: 500,
+        color: '#8300EB',
       },
       {
         stationName: '미사',
         cx: 2265,
         cy: 500,
+        color: '#8300EB',
       },
       {
         stationName: '하남풍산',
         cx: 2325,
         cy: 503,
+        color: '#8300EB',
       },
       {
         stationName: '하남시청',
         cx: 2394,
         cy: 560,
+        color: '#8300EB',
       },
       {
         stationName: '하남검단산',
         cx: 2400,
         cy: 650,
+        color: '#8300EB',
       },
       {
         stationName: '둔촌동',
         cx: 1990,
         cy: 700,
+        color: '#8300EB',
       },
       {
         stationName: '방이',
         cx: 2100,
         cy: 845,
+        color: '#8300EB',
       },
       {
         stationName: '개롱',
         cx: 2200,
         cy: 1000,
+        color: '#8300EB',
       },
       {
         stationName: '거여',
         cx: 2300,
         cy: 1000,
+        color: '#8300EB',
       },
       {
         stationName: '마천',
         cx: 2400,
         cy: 1000,
+        color: '#8300EB',
       },
     ],
     rect: [
@@ -1857,6 +1999,7 @@ const lineDatas = {
         height: 40,
         x: 162,
         y: 100,
+        color: '#8300EB',
       },
       {
         stationName: '까치산',
@@ -1864,6 +2007,7 @@ const lineDatas = {
         height: 30,
         x: 275,
         y: 594,
+        color: '#8300EB',
       },
       {
         stationName: '영등포구청',
@@ -1871,6 +2015,7 @@ const lineDatas = {
         height: 30,
         x: 575,
         y: 578,
+        color: '#8300EB',
       },
       {
         stationName: '신길',
@@ -1878,6 +2023,7 @@ const lineDatas = {
         height: 30,
         x: 720,
         y: 665,
+        color: '#8300EB',
       },
       {
         stationName: '여의도',
@@ -1885,6 +2031,7 @@ const lineDatas = {
         height: 30,
         x: 772,
         y: 560,
+        color: '#8300EB',
       },
       {
         stationName: '공덕',
@@ -1892,6 +2039,7 @@ const lineDatas = {
         height: 40,
         x: 772,
         y: 370,
+        color: '#8300EB',
       },
       {
         stationName: '충정로',
@@ -1899,6 +2047,7 @@ const lineDatas = {
         height: 30,
         x: 772,
         y: 190,
+        color: '#8300EB',
       },
       {
         stationName: '종로3가',
@@ -1906,6 +2055,7 @@ const lineDatas = {
         height: 15,
         x: 890,
         y: 90,
+        color: '#8300EB',
       },
       {
         stationName: '을지로4가',
@@ -1913,6 +2063,7 @@ const lineDatas = {
         height: 30,
         x: 950,
         y: 190,
+        color: '#8300EB',
       },
       {
         stationName: '동대문역사문화공원',
@@ -1920,6 +2071,7 @@ const lineDatas = {
         height: 40,
         x: 1030,
         y: 190,
+        color: '#8300EB',
       },
       {
         stationName: '청구',
@@ -1927,6 +2079,7 @@ const lineDatas = {
         height: 30,
         x: 1190,
         y: 260,
+        color: '#8300EB',
       },
       {
         stationName: '왕십리',
@@ -1934,6 +2087,7 @@ const lineDatas = {
         height: 30,
         x: 1400,
         y: 190,
+        color: '#8300EB',
       },
       {
         stationName: '군자',
@@ -1941,6 +2095,7 @@ const lineDatas = {
         height: 15,
         x: 1680,
         y: 300,
+        color: '#8300EB',
       },
       {
         stationName: '천호',
@@ -1948,6 +2103,7 @@ const lineDatas = {
         height: 15,
         x: 1700,
         y: 630,
+        color: '#8300EB',
       },
       {
         stationName: '강동',
@@ -1955,6 +2111,7 @@ const lineDatas = {
         height: 15,
         x: 1890,
         y: 693,
+        color: '#8300EB',
       },
       {
         stationName: '올림픽공원',
@@ -1962,6 +2119,7 @@ const lineDatas = {
         height: 15,
         x: 2085,
         y: 755,
+        color: '#8300EB',
       },
       {
         stationName: '오금',
@@ -1969,6 +2127,7 @@ const lineDatas = {
         height: 30,
         x: 2093,
         y: 915,
+        color: '#8300EB',
       },
     ],
     text: [

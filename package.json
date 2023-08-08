@@ -13,6 +13,7 @@
   "dependencies": {
     "@types/react-icons": "^3.0.0",
     "@types/react-router-dom": "^5.3.3",
+    "@types/uuid": "^9.0.2",
     "axios": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -20,7 +21,8 @@
     "react-router-dom": "^6.14.2",
     "react-zoom-pan-pinch": "^3.1.0",
     "recoil": "^0.7.7",
-    "sass": "^1.64.2"
+    "sass": "^1.64.2",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@types/node-sass": "^4.11.3",

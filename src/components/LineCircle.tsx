@@ -19,7 +19,7 @@ function LineCircle({ circleData }: ICircleProps) {
       r={5}
       fill="white"
       strokeWidth={5}
-      stroke="#08A5E3"
+      stroke={circleData.color}
       ref={circleRef}
     />
   );
