@@ -1,4 +1,4 @@
-export const lineDatas = {
+const lineDatas = {
   line2: {
     path: [
       {
@@ -2329,3 +2329,5 @@ export const lineDatas = {
     ],
   },
 };
+
+export default lineDatas;

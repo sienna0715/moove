@@ -1,14 +1,15 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
+import { useRecoilValue } from 'recoil';
 // components
 import LinePath from './LinePath';
 import LineLine from './LineLine';
 import LineCircle from './LineCircle';
 import LineRect from './LineRect';
 import LineText from './LineText';
-import { ILineDatasInfo } from '../interfaces/interfaces';
+import lineAtom from '../atoms/atoms';
 
 function Line4() {
-  const [line4Datas, setLin4Datas] = useState<ILineDatasInfo>();
+  const lineDatas = useRecoilValue(lineAtom);
   // const circleRef = useRef<SVGCircleElement>(null);
 
   useEffect(() => {
@@ -21,19 +22,19 @@ function Line4() {
   }, []);
   return (
     <symbol id="line4SvgContainer">
-      {line4Datas?.path.map((pathData) => (
+      {lineDatas.line4?.path.map((pathData) => (
         <LinePath pathData={pathData} />
       ))}
-      {line4Datas?.line.map((lineData) => (
+      {lineDatas.line4?.line.map((lineData) => (
         <LineLine lineData={lineData} />
       ))}
-      {line4Datas?.circle.map((circleData) => (
+      {lineDatas.line4?.circle.map((circleData) => (
         <LineCircle circleData={circleData} />
       ))}
-      {line4Datas?.rect.map((rectData) => (
+      {lineDatas.line4?.rect.map((rectData) => (
         <LineRect rectData={rectData} />
       ))}
-      {line4Datas?.text.map((textData) => (
+      {lineDatas.line4?.text.map((textData) => (
         <LineText textData={textData} />
       ))}
     </symbol>

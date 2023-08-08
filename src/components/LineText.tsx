@@ -1,4 +1,4 @@
-import { ITextProps } from "../interfaces/interfaces";
+import { ITextProps } from '../interfaces/interfaces';
 
 function LineText({ textData }: ITextProps) {
   return (

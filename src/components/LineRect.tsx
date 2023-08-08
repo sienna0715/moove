@@ -1,4 +1,4 @@
-import { IRectProps } from "../interfaces/interfaces";
+import { IRectProps } from '../interfaces/interfaces';
 
 function Lin4Rect({ rectData }: IRectProps) {
   return (

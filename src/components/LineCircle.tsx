@@ -1,4 +1,4 @@
-import { ICircleProps } from "../interfaces/interfaces";
+import { ICircleProps } from '../interfaces/interfaces';
 
 function LineCircle({ circleData }: ICircleProps) {
   return (

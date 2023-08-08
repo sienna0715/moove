@@ -1,4 +1,4 @@
-import { ILineProps } from "../interfaces/interfaces";
+import { ILineProps } from '../interfaces/interfaces';
 
 function LineLine({ lineData }: ILineProps) {
   return (
