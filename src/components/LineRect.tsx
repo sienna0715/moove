@@ -1,6 +1,17 @@
+import { useEffect, useRef } from 'react';
 import { IRectProps } from '../interfaces/interfaces';
 
 function Lin4Rect({ rectData }: IRectProps) {
+  const rectRef = useRef<SVGRectElement>(null);
+
+  useEffect(() => {
+    const svg = rectRef.current;
+    if (svg) {
+      svg.addEventListener('click', () => {
+        console.log(rectData.stationName);
+      });
+    }
+  }, [rectData.stationName]);
   return (
     <rect
       width={rectData.width}
@@ -12,6 +23,7 @@ function Lin4Rect({ rectData }: IRectProps) {
       fill="white"
       strokeWidth={5}
       stroke="#08A5E3"
+      ref={rectRef}
     />
   );
 }
