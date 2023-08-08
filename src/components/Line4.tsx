@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { useRecoilValue } from 'recoil';
 // components
 import LinePath from './LinePath';
@@ -10,16 +9,7 @@ import lineAtom from '../atoms/atoms';
 
 function Line4() {
   const lineDatas = useRecoilValue(lineAtom);
-  // const circleRef = useRef<SVGCircleElement>(null);
 
-  useEffect(() => {
-    //   const svg = circleRef.current;
-    //   if (svg) {
-    //     svg.addEventListener('click', () => {
-    //       console.log('ok');
-    //     });
-    //   }
-  }, []);
   return (
     <symbol id="line4SvgContainer">
       {lineDatas.line4?.path.map((pathData) => (
