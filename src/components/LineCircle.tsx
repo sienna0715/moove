@@ -1,12 +1,4 @@
-interface ICircleProps {
-  circleData: ICircleInfo;
-}
-
-interface ICircleInfo {
-  stationName: string;
-  cx: number;
-  cy: number;
-}
+import { ICircleProps } from "../interfaces/interfaces";
 
 function LineCircle({ circleData }: ICircleProps) {
   return (

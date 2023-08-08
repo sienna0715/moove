@@ -1,19 +1,4 @@
-interface ITextProps {
-  textData: ItextInfo;
-}
-
-interface ItextInfo {
-  value: string;
-  x: number;
-  y: number;
-  dx: number;
-  dy: number;
-  tdx?: number;
-  tdy?: number;
-  tValue?: string;
-  tValue1?: string;
-  fill: string;
-}
+import { ITextProps } from "../interfaces/interfaces";
 
 function LineText({ textData }: ITextProps) {
   return (

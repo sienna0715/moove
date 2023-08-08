@@ -1,14 +1,4 @@
-interface IRectProps {
-  rectData: IRectInfo;
-}
-
-interface IRectInfo {
-  stationName: string;
-  width: number;
-  height: number;
-  x: number;
-  y: number;
-}
+import { IRectProps } from "../interfaces/interfaces";
 
 function Lin4Rect({ rectData }: IRectProps) {
   return (
