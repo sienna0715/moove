@@ -21,16 +21,15 @@
   font-style: normal;
   font-display: swap;
 }
-
-:root {
-  font-family: 'Pretendard-SemiBold';
-  line-height: 1.5;
-}
+/* logo */
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Pretendard-SemiBold';
+  line-height: 1.5;
 }
 
 /* a {
