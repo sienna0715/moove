@@ -47,6 +47,7 @@ export interface ItextInfo {
 
 export interface ICircleProps {
   circleData: ICircleInfo;
+  line: string;
 }
 export interface ILineProps {
   lineData: ILineInfo;

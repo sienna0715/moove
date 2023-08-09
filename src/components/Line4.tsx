@@ -19,7 +19,7 @@ function Line4() {
         <LineLine lineData={lineData} />
       ))}
       {lineDatas.line4?.circle.map((circleData) => (
-        <LineCircle circleData={circleData} />
+        <LineCircle circleData={circleData} line="line4" />
       ))}
       {lineDatas.line4?.rect.map((rectData) => (
         <LineRect rectData={rectData} />
