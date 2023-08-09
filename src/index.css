@@ -1,22 +1,23 @@
 @font-face {
   font-family: 'Pretendard-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Pretendard-SemiBold";
-  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff")
-    format("woff");
+  font-family: 'Pretendard-SemiBold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff')
+    format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Pretendard-ExtraBold";
-  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff")
-    format("woff");
+  font-family: 'Pretendard-ExtraBold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff')
+    format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -26,13 +27,13 @@
 
 :root {
   --color-main: #333333;
-  --color-sub: #F2F2F2;
-  --color-border: #D9D9D9;
-  --color-exit: #EFBE0A;
-  --color-time: #FF2020;
-  --color-line2: #3DB44B;
-  --color-line4: #08A5E3;
-  --color-line5: #8300EB;
+  --color-sub: #f2f2f2;
+  --color-border: #d9d9d9;
+  --color-exit: #efbe0a;
+  --color-time: #ff2020;
+  --color-line2: #3db44b;
+  --color-line4: #08a5e3;
+  --color-line5: #8300eb;
   --color-white: #ffffff;
   --color-black: #000000;
 }
@@ -43,6 +44,10 @@ body {
   box-sizing: border-box;
   font-family: 'Pretendard-SemiBold';
   line-height: 1.5;
+}
+
+li {
+  list-style: none;
 }
 
 /* a {
