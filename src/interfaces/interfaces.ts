@@ -36,8 +36,8 @@ export interface ItextInfo {
   value: string;
   x: number;
   y: number;
-  dx: number;
-  dy: number;
+  dx?: number;
+  dy?: number;
   tdx?: number;
   tdy?: number;
   tValue?: string;
@@ -51,12 +51,15 @@ export interface ICircleProps {
 }
 export interface ILineProps {
   lineData: ILineInfo;
+  line: string;
 }
 export interface IPathProps {
   pathData: IPathInfo;
+  line: string;
 }
 export interface IRectProps {
   rectData: IRectInfo;
+  line: string;
 }
 export interface ITextProps {
   textData: ItextInfo;
