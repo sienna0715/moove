@@ -2119,7 +2119,7 @@ const lineDatas = {
       {
         value: '광화문',
         x: 816,
-        y: 80,
+        y: 60,
         fill: 'gray',
       },
       {
@@ -2286,8 +2286,8 @@ const lineDatas = {
       },
       {
         value: '둔촌동',
-        x: 1590,
-        y: 186,
+        x: 1965,
+        y: 733,
         fill: 'gray',
       },
       {
