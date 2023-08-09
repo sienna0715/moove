@@ -953,7 +953,7 @@ const lineDatas = {
         y: 385,
       },
       {
-        stationName: '서울역',
+        stationName: '서울',
         width: 50,
         height: 15,
         x: 820,
