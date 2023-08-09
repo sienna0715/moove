@@ -1,7 +1,8 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { ICircleProps } from '../interfaces/interfaces';
 
-function LineCircle({ circleData }: ICircleProps) {
+function LineCircle({ circleData, line }: ICircleProps) {
+  const [stroke, setStroke] = useState<string>();
   const circleRef = useRef<SVGCircleElement>(null);
 
   useEffect(() => {
@@ -11,7 +12,16 @@ function LineCircle({ circleData }: ICircleProps) {
         console.log(circleData.stationName);
       });
     }
-  }, [circleData.stationName]);
+
+    if (line === 'line4') {
+      setStroke('#08A5E3');
+    } else if (line === 'line5') {
+      setStroke('#8300EB');
+    } else if (line === 'line2') {
+      setStroke('#3DB44B');
+    }
+  }, [circleData.stationName, line]);
+
   return (
     <circle
       cx={circleData.cx}
@@ -19,7 +29,7 @@ function LineCircle({ circleData }: ICircleProps) {
       r={5}
       fill="white"
       strokeWidth={5}
-      stroke={circleData.color}
+      stroke={stroke}
       ref={circleRef}
     />
   );

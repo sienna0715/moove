@@ -13,20 +13,17 @@ export interface ILineDatasInfo {
 }
 export interface IPathInfo {
   d: string;
-  color?: string;
 }
 export interface ILineInfo {
   x1: number;
   y1: number;
   x2: number;
   y2: number;
-  color?: string;
 }
 export interface ICircleInfo {
   stationName: string;
   cx: number;
   cy: number;
-  color?: string;
 }
 export interface IRectInfo {
   stationName: string;
@@ -34,7 +31,6 @@ export interface IRectInfo {
   height: number;
   x: number;
   y: number;
-  color?: string;
 }
 export interface ItextInfo {
   value: string;
@@ -51,15 +47,19 @@ export interface ItextInfo {
 
 export interface ICircleProps {
   circleData: ICircleInfo;
+  line: string;
 }
 export interface ILineProps {
   lineData: ILineInfo;
+  line: string;
 }
 export interface IPathProps {
   pathData: IPathInfo;
+  line: string;
 }
 export interface IRectProps {
   rectData: IRectInfo;
+  line: string;
 }
 export interface ITextProps {
   textData: ItextInfo;

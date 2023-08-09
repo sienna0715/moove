@@ -13,16 +13,16 @@ function Line4() {
   return (
     <symbol id="line4SvgContainer">
       {lineDatas.line4?.path.map((pathData) => (
-        <LinePath pathData={pathData} />
+        <LinePath pathData={pathData} line="line4" />
       ))}
       {lineDatas.line4?.line.map((lineData) => (
-        <LineLine lineData={lineData} />
+        <LineLine lineData={lineData} line="line4" />
       ))}
       {lineDatas.line4?.circle.map((circleData) => (
-        <LineCircle circleData={circleData} />
+        <LineCircle circleData={circleData} line="line4" />
       ))}
       {lineDatas.line4?.rect.map((rectData) => (
-        <LineRect rectData={rectData} />
+        <LineRect rectData={rectData} line="line4" />
       ))}
       {lineDatas.line4?.text.map((textData) => (
         <LineText textData={textData} />
