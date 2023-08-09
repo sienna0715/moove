@@ -1,4 +1,5 @@
 import { useRecoilValue } from 'recoil';
+import { v4 as uuidv4 } from 'uuid';
 // components
 import LineCircle from './LineCircle';
 import LineLine from './LineLine';
@@ -13,19 +14,19 @@ function Line5() {
   return (
     <symbol id="line5SvgContainer">
       {lineDatas.line5?.path.map((pathData) => (
-        <LinePath key={pathData.d} pathData={pathData} line="line5" />
+        <LinePath key={uuidv4()} pathData={pathData} line="line5" />
       ))}
       {lineDatas.line5?.line.map((lineData) => (
-        <LineLine lineData={lineData} line="line5" />
+        <LineLine key={uuidv4()} lineData={lineData} line="line5" />
       ))}
       {lineDatas.line5?.circle.map((circleData) => (
-        <LineCircle circleData={circleData} line="line5" />
+        <LineCircle key={uuidv4()} circleData={circleData} line="line5" />
       ))}
       {lineDatas.line5?.rect.map((rectData) => (
-        <LineRect key={rectData.stationName} rectData={rectData} line="line5" />
+        <LineRect key={uuidv4()} rectData={rectData} line="line5" />
       ))}
       {lineDatas.line5?.text.map((textData) => (
-        <LineText key={textData.value} textData={textData} />
+        <LineText key={uuidv4()} textData={textData} />
       ))}
     </symbol>
   );
