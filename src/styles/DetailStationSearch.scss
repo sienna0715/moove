@@ -1,0 +1,62 @@
+.DetailStationSearchWrap {
+  width: 23rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10% 0;
+  border-bottom: 3px solid rgba(170, 170, 170, 0.5);
+  .DetailStationSearch {
+    width: 23rem;
+    height: 2rem;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 2rem;
+    .DetailStationSearchInput {
+      width: 100%;
+      height: 1rem;
+      margin: 0 3%;
+      border: none;
+      outline: none;
+    }
+    .DetailStationSearchIcon {
+      margin-right: 5%;
+    }
+  }
+  .DetailStationLineFilter {
+    width: 23rem;
+    padding-top: 8%;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .DetailStationLineButton {
+      @mixin buttonColor($color) {
+        width: 30%;
+        height: 2.5rem;
+        border: none;
+        border-radius: 2rem;
+        color: white;
+        background-color: $color;
+        &:hover {
+          background: lighten($color, 10%);
+        }
+
+        &:active {
+          background: darken($color, 10%);
+        }
+      }
+      &line2 {
+        @include buttonColor(#3db44b);
+      }
+      &line4 {
+        @include buttonColor(#08a5e3);
+      }
+      &line5 {
+        @include buttonColor(#8300eb);
+      }
+    }
+  }
+}

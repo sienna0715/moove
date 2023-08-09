@@ -1,5 +1,17 @@
-function DetailStationLineButton() {
-  return <button type="button">2호선</button>;
+interface IDetailStationLineButtonProps {
+  value: string;
+  line: string;
+}
+
+function DetailStationLineButton({
+  value,
+  line,
+}: IDetailStationLineButtonProps) {
+  return (
+    <button type="button" className={`DetailStationLineButton${line}`}>
+      {value}
+    </button>
+  );
 }
 
 export default DetailStationLineButton;
