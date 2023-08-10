@@ -30,7 +30,11 @@ function DetailStationSearch() {
         stationNames.filter((stationName) => stationName === currentStation),
       );
     } else {
-      setFilteredStationNames(stationNames);
+      setFilteredStationNames([
+        ...stationNameDatas.line2,
+        ...stationNameDatas.line4,
+        ...stationNameDatas.line5,
+      ]);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
