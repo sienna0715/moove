@@ -1,13 +1,31 @@
-import '../styles/StationResultStyle.scss';
+import { useEffect } from 'react';
+import { useRecoilState, useRecoilValue } from 'recoil';
+import axios from 'axios';
+// components
+import '../styles/DetailStationResultStyle.scss';
 import { MdArrowBackIos, MdArrowForwardIos } from 'react-icons/md';
+import { currentStationAtom, stationInfoAtom } from '../recoil/atoms';
+import { ISubwayProps } from '../interfaces/interfaces';
 
-function StationResult() {
+export default function DetailStationResult() {
+  const currentStation = useRecoilValue(currentStationAtom);
+  const [stationInfo, setStationInfo] = useRecoilState(stationInfoAtom);
+  const subwayId: string = stationInfo[0]?.subwayId;
+  console.log(stationInfo);
+
+  useEffect(() => {
+    axios
+      .get<ISubwayProps>(`http://swopenAPI.seoul.go.kr/api/subway/6267466b6b616e7437394670434955/json/realtimeStationArrival/0/5/${currentStation}`)
+      .then((res) => setStationInfo(res.data.realtimeArrivalList))
+      .catch((err) => console.log(err));
+  }, [currentStation, setStationInfo]);
+
   return (
     <div className="station-result-wrap">
       <div className="station-result-container">
         <div className="location">
-          <div className="main-station">합정</div>
-          <div className="sub-station">
+          <div className={`main-station line${subwayId}`}>{currentStation}</div>
+          <div className={`sub-station line${subwayId}`}>
             <span className="pre-station">
               <MdArrowBackIos />
               당산
@@ -39,5 +57,3 @@ function StationResult() {
     </div>
   );
 }
-
-export default StationResult;

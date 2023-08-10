@@ -7,15 +7,15 @@ import { currentStationAtom, lineSelectAtom } from '../recoil/atoms';
 function LineRect({ rectData, line }: IRectProps) {
   const [stroke, setStroke] = useState<string>();
   const rectRef = useRef<SVGRectElement>(null);
-  const setStationSelect = useSetRecoilState(currentStationAtom);
   const lineSelect = useRecoilValue(lineSelectAtom);
+  const setCurrentStation = useSetRecoilState(currentStationAtom);
 
   useEffect(() => {
     const svg = rectRef.current;
 
     if (svg) {
       svg.addEventListener('click', () => {
-        setStationSelect(rectData.stationName);
+        setCurrentStation(rectData.stationName);
       });
     }
 
@@ -38,7 +38,7 @@ function LineRect({ rectData, line }: IRectProps) {
         setStroke('#3db44b4e');
       }
     }
-  }, [rectData.stationName, line, setStationSelect, lineSelect]);
+  }, [rectData.stationName, line, setCurrentStation, lineSelect]);
   return (
     <rect
       width={rectData.width}

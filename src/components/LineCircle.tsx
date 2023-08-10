@@ -7,14 +7,14 @@ import { currentStationAtom, lineSelectAtom } from '../recoil/atoms';
 function LineCircle({ circleData, line }: ICircleProps) {
   const [stroke, setStroke] = useState<string>();
   const circleRef = useRef<SVGCircleElement>(null);
-  const setStationSelect = useSetRecoilState(currentStationAtom);
   const lineSelect = useRecoilValue(lineSelectAtom);
+  const setCurrentStation = useSetRecoilState(currentStationAtom);
 
   useEffect(() => {
     const svg = circleRef.current;
     if (svg) {
       svg.addEventListener('click', () => {
-        setStationSelect(circleData.stationName);
+        setCurrentStation(circleData.stationName);
       });
     }
 
@@ -37,7 +37,7 @@ function LineCircle({ circleData, line }: ICircleProps) {
         setStroke('#3db44b4e');
       }
     }
-  }, [circleData.stationName, line, setStationSelect, lineSelect]);
+  }, [circleData.stationName, line, setCurrentStation, lineSelect]);
 
   return (
     <circle

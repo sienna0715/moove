@@ -26,3 +26,8 @@ export const isDropdownAtom = atom({
   key: 'isDropdownAtom',
   default: false,
 });
+
+export const stationInfoAtom = atom({
+  key: 'stationInfoAtom',
+  default: [],
+});

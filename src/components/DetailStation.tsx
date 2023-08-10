@@ -1,14 +1,14 @@
-import '../styles/DetailStation.scss';
+import '../styles/DetailStationStyle.scss';
 import DetailStationLogo from './DetailStationLogo';
 import DetailStationSearchWrap from './DetailStationSearchWrap';
-import StationResult from './StationResult';
+import DetailStationResult from './DetailStationResult';
 
 function DetailStation() {
   return (
     <div className="DetailStationWrap">
       <DetailStationLogo />
       <DetailStationSearchWrap />
-      <StationResult />
+      <DetailStationResult />
     </div>
   );
 }
