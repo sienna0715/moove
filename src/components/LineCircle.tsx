@@ -1,13 +1,14 @@
 import { useEffect, useRef, useState } from 'react';
-import { useSetRecoilState } from 'recoil';
+import { useRecoilValue, useSetRecoilState } from 'recoil';
 // components
 import { ICircleProps } from '../interfaces/interfaces';
-import { currentStationAtom } from '../recoil/atoms';
+import { currentStationAtom, lineSelectAtom } from '../recoil/atoms';
 
 function LineCircle({ circleData, line }: ICircleProps) {
   const [stroke, setStroke] = useState<string>();
   const circleRef = useRef<SVGCircleElement>(null);
   const setStationSelect = useSetRecoilState(currentStationAtom);
+  const lineSelect = useRecoilValue(lineSelectAtom);
 
   useEffect(() => {
     const svg = circleRef.current;
@@ -18,13 +19,25 @@ function LineCircle({ circleData, line }: ICircleProps) {
     }
 
     if (line === 'line4') {
-      setStroke('#08A5E3');
+      if (lineSelect === 'line4' || lineSelect === '') {
+        setStroke('#08A5E3');
+      } else {
+        setStroke('#08a5e34e');
+      }
     } else if (line === 'line5') {
-      setStroke('#8300EB');
+      if (lineSelect === 'line5' || lineSelect === '') {
+        setStroke('#8300EB');
+      } else {
+        setStroke('#8100eb4e');
+      }
     } else if (line === 'line2') {
-      setStroke('#3DB44B');
+      if (lineSelect === 'line2' || lineSelect === '') {
+        setStroke('#3DB44B');
+      } else {
+        setStroke('#3db44b4e');
+      }
     }
-  }, [circleData.stationName, line, setStationSelect]);
+  }, [circleData.stationName, line, setStationSelect, lineSelect]);
 
   return (
     <circle

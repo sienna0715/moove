@@ -1,18 +1,33 @@
 import { useEffect, useState } from 'react';
+import { useRecoilValue } from 'recoil';
 import { IPathProps } from '../interfaces/interfaces';
+import { lineSelectAtom } from '../recoil/atoms';
 
 function LinePath({ pathData, line }: IPathProps) {
   const [stroke, setStroke] = useState<string>();
+  const lineSelect = useRecoilValue(lineSelectAtom);
 
   useEffect(() => {
     if (line === 'line4') {
-      setStroke('#08A5E3');
+      if (lineSelect === 'line4' || lineSelect === '') {
+        setStroke('#08A5E3');
+      } else {
+        setStroke('#08a5e34e');
+      }
     } else if (line === 'line5') {
-      setStroke('#8300EB');
+      if (lineSelect === 'line5' || lineSelect === '') {
+        setStroke('#8300EB');
+      } else {
+        setStroke('#8100eb4e');
+      }
     } else if (line === 'line2') {
-      setStroke('#3DB44B');
+      if (lineSelect === 'line2' || lineSelect === '') {
+        setStroke('#3DB44B');
+      } else {
+        setStroke('#3db44b4e');
+      }
     }
-  }, [line]);
+  }, [line, lineSelect]);
 
   return <path d={pathData.d} fill="none" stroke={stroke} strokeWidth="8" />;
 }
