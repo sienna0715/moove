@@ -1,15 +1,19 @@
 import { useEffect, useRef, useState } from 'react';
+import { useSetRecoilState } from 'recoil';
+// components
 import { ICircleProps } from '../interfaces/interfaces';
+import { currentStationAtom } from '../recoil/atoms';
 
 function LineCircle({ circleData, line }: ICircleProps) {
   const [stroke, setStroke] = useState<string>();
   const circleRef = useRef<SVGCircleElement>(null);
+  const setStationSelect = useSetRecoilState(currentStationAtom);
 
   useEffect(() => {
     const svg = circleRef.current;
     if (svg) {
       svg.addEventListener('click', () => {
-        console.log(circleData.stationName);
+        setStationSelect(circleData.stationName);
       });
     }
 
@@ -20,7 +24,7 @@ function LineCircle({ circleData, line }: ICircleProps) {
     } else if (line === 'line2') {
       setStroke('#3DB44B');
     }
-  }, [circleData.stationName, line]);
+  }, [circleData.stationName, line, setStationSelect]);
 
   return (
     <circle

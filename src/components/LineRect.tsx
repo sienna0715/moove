@@ -1,16 +1,20 @@
 import { useEffect, useRef, useState } from 'react';
+import { useSetRecoilState } from 'recoil';
+// components
 import { IRectProps } from '../interfaces/interfaces';
+import { currentStationAtom } from '../recoil/atoms';
 
 function LineRect({ rectData, line }: IRectProps) {
   const [stroke, setStroke] = useState<string>();
   const rectRef = useRef<SVGRectElement>(null);
+  const setStationSelect = useSetRecoilState(currentStationAtom);
 
   useEffect(() => {
     const svg = rectRef.current;
 
     if (svg) {
       svg.addEventListener('click', () => {
-        console.log(rectData.stationName);
+        setStationSelect(rectData.stationName);
       });
     }
 
@@ -21,7 +25,7 @@ function LineRect({ rectData, line }: IRectProps) {
     } else if (line === 'line2') {
       setStroke('#3DB44B');
     }
-  }, [rectData.stationName, line]);
+  }, [rectData.stationName, line, setStationSelect]);
   return (
     <rect
       width={rectData.width}
