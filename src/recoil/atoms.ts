@@ -1,9 +1,17 @@
 import { atom } from 'recoil';
 import lineDatas from '../data/lineDatas';
 
-const lineAtom = atom({
+export const lineAtom = atom({
   key: 'lineAtom',
   default: lineDatas,
 });
 
-export default lineAtom;
+export const currentAtom = atom({
+  key: 'currentAtom',
+  default: '',
+});
+
+export const stationInfoAtom = atom({
+  key: 'stationInfoAtom',
+  default: {},
+});

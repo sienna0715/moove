@@ -1,12 +1,37 @@
-import '../styles/StationResultStyle.scss';
+import { useEffect, useState } from 'react';
+import { useRecoilState, useRecoilValue } from 'recoil';
+import axios from 'axios';
+// components
+import '../styles/DetailStationResultStyle.scss';
 import { MdArrowBackIos, MdArrowForwardIos } from 'react-icons/md';
+import { currentAtom, stationInfoAtom } from '../recoil/atoms';
 
-function StationResult() {
+export default function DetailStationResult() {
+  const [color, setColor] = useState<string>('#3DB44B');
+  const currentStation = useRecoilValue(currentAtom);
+  const [stationInfo, setStationInfo] = useRecoilState(stationInfoAtom);
+
+  // if (stationInfo.subwayId === '1002') {
+  //   setColor('#3DB44B');
+  // } else if (stationInfo.subwayId === '1004') {
+  //   setColor('#08A5E3');
+  // } else if (stationInfo.subwayId === '1005') {
+  //   setColor('#8300EB');
+  // }
+
+  useEffect(() => {
+    axios
+      .get(
+        `http://swopenAPI.seoul.go.kr/api/subway/6267466b6b616e7437394670434955/xml/realtimeStationArrival/0/5/${currentStation}`,
+      )
+      .then((res) => console.log(res.data))
+      .catch((err) => console.log(err));
+  }, [currentStation, setStationInfo]);
   return (
     <div className="station-result-wrap">
       <div className="station-result-container">
         <div className="location">
-          <div className="main-station">합정</div>
+          <div className="main-station">{currentStation}</div>
           <div className="sub-station">
             <span className="pre-station">
               <MdArrowBackIos />
@@ -39,5 +64,3 @@ function StationResult() {
     </div>
   );
 }
-
-export default StationResult;
