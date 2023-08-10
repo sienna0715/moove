@@ -64,3 +64,49 @@ export interface IRectProps {
 export interface ITextProps {
   textData: ItextInfo;
 }
+
+// 서울시 지하철 실시간 도착정보 API
+export interface ISubwayErrorInfo {
+  code: string;
+  developerMessage: string;
+  link: string;
+  message: string;
+  status: number;
+  total: number;
+}
+export interface ISubwayArriveInfo {
+  arvlCd: string;
+  arvlMsg2: string;
+  arvlMsg3: string;
+  barvlDt: string;
+  beginRow: null;
+  bstatnId: string;
+  bstatnNm: string;
+  btrainNo: string;
+  btrainSttus: string;
+  curPage: null;
+  endRow: null;
+  ordkey: string;
+  pageRow: null;
+  recptnDt: string;
+  rowNum: number;
+  selectedCount: number;
+  statnFid: string;
+  statnId: string;
+  statnList: string;
+  statnNm: string;
+  statnTid: string;
+  subwayHeading: null;
+  subwayId: string;
+  subwayList: string;
+  subwayNm: null;
+  totalCount: number;
+  trainCo: null;
+  trainLineNm: string;
+  trnsitCo: string;
+  updnLine: string;
+}
+export interface ISubwayProps {
+  errorMessage: ISubwayErrorInfo;
+  realtimeArrivalList: ISubwayArriveInfo;
+}
