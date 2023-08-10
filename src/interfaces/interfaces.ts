@@ -63,6 +63,7 @@ export interface IRectProps {
 }
 export interface ITextProps {
   textData: ItextInfo;
+  line: string;
 }
 
 // 서울시 지하철 실시간 도착정보 API

@@ -26,7 +26,7 @@ function Line2() {
         <LineRect key={uuidv4()} rectData={rectData} line="line2" />
       ))}
       {lineDatas.line2?.text.map((textData) => (
-        <LineText key={uuidv4()} textData={textData} />
+        <LineText key={uuidv4()} textData={textData} line="line2" />
       ))}
     </symbol>
   );
