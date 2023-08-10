@@ -6,7 +6,7 @@ import LineLine from './LineLine';
 import LineCircle from './LineCircle';
 import LineRect from './LineRect';
 import LineText from './LineText';
-import lineAtom from '../recoil/atoms';
+import { lineAtom } from '../recoil/atoms';
 
 function Line4() {
   const lineDatas = useRecoilValue(lineAtom);
