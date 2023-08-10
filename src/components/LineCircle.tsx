@@ -2,12 +2,12 @@ import { useEffect, useRef, useState } from 'react';
 import { useSetRecoilState } from 'recoil';
 // components
 import { ICircleProps } from '../interfaces/interfaces';
-import { currentAtom } from '../recoil/atoms';
+import { currentStationAtom } from '../recoil/atoms';
 
 function LineCircle({ circleData, line }: ICircleProps) {
   const [stroke, setStroke] = useState<string>();
   const circleRef = useRef<SVGCircleElement>(null);
-  const setCurrentStation = useSetRecoilState(currentAtom);
+  const setCurrentStation = useSetRecoilState(currentStationAtom);
 
   useEffect(() => {
     const svg = circleRef.current;

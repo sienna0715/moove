@@ -6,12 +6,12 @@ export const lineAtom = atom({
   default: lineDatas,
 });
 
-export const currentAtom = atom({
-  key: 'currentAtom',
+export const currentStationAtom = atom({
+  key: 'currentStationAtom',
   default: '',
 });
 
 export const stationInfoAtom = atom({
   key: 'stationInfoAtom',
-  default: {},
+  default: [],
 });

@@ -1,38 +1,31 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useRecoilState, useRecoilValue } from 'recoil';
 import axios from 'axios';
 // components
 import '../styles/DetailStationResultStyle.scss';
 import { MdArrowBackIos, MdArrowForwardIos } from 'react-icons/md';
-import { currentAtom, stationInfoAtom } from '../recoil/atoms';
+import { currentStationAtom, stationInfoAtom } from '../recoil/atoms';
+import { ISubwayProps } from '../interfaces/interfaces';
 
 export default function DetailStationResult() {
-  const [color, setColor] = useState<string>('#3DB44B');
-  const currentStation = useRecoilValue(currentAtom);
+  const currentStation = useRecoilValue(currentStationAtom);
   const [stationInfo, setStationInfo] = useRecoilState(stationInfoAtom);
-
-  // if (stationInfo.subwayId === '1002') {
-  //   setColor('#3DB44B');
-  // } else if (stationInfo.subwayId === '1004') {
-  //   setColor('#08A5E3');
-  // } else if (stationInfo.subwayId === '1005') {
-  //   setColor('#8300EB');
-  // }
+  const subwayId: string = stationInfo[0]?.subwayId;
+  console.log(stationInfo);
 
   useEffect(() => {
     axios
-      .get(
-        `http://swopenAPI.seoul.go.kr/api/subway/6267466b6b616e7437394670434955/xml/realtimeStationArrival/0/5/${currentStation}`,
-      )
-      .then((res) => console.log(res.data))
+      .get<ISubwayProps>(`http://swopenAPI.seoul.go.kr/api/subway/6267466b6b616e7437394670434955/json/realtimeStationArrival/0/5/${currentStation}`)
+      .then((res) => setStationInfo(res.data.realtimeArrivalList))
       .catch((err) => console.log(err));
   }, [currentStation, setStationInfo]);
+
   return (
     <div className="station-result-wrap">
       <div className="station-result-container">
         <div className="location">
-          <div className="main-station">{currentStation}</div>
-          <div className="sub-station">
+          <div className={`main-station line${subwayId}`}>{currentStation}</div>
+          <div className={`sub-station line${subwayId}`}>
             <span className="pre-station">
               <MdArrowBackIos />
               당산

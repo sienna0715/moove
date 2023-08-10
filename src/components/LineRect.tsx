@@ -2,12 +2,12 @@ import { useEffect, useRef, useState } from 'react';
 import { useSetRecoilState } from 'recoil';
 // componetns
 import { IRectProps } from '../interfaces/interfaces';
-import { currentAtom } from '../recoil/atoms';
+import { currentStationAtom } from '../recoil/atoms';
 
 function LineRect({ rectData, line }: IRectProps) {
   const [stroke, setStroke] = useState<string>();
   const rectRef = useRef<SVGRectElement>(null);
-  const setCurrentStation = useSetRecoilState(currentAtom);
+  const setCurrentStation = useSetRecoilState(currentStationAtom);
 
   useEffect(() => {
     const svg = rectRef.current;
