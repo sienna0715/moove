@@ -1630,36 +1630,6 @@ const lineDatas = {
         cy: 10,
       },
       {
-        stationName: '방화',
-        cx: 10,
-        cy: 10,
-      },
-      {
-        stationName: '방화',
-        cx: 10,
-        cy: 10,
-      },
-      {
-        stationName: '방화',
-        cx: 10,
-        cy: 10,
-      },
-      {
-        stationName: '방화',
-        cx: 10,
-        cy: 10,
-      },
-      {
-        stationName: '방화',
-        cx: 10,
-        cy: 10,
-      },
-      {
-        stationName: '방화',
-        cx: 10,
-        cy: 10,
-      },
-      {
         stationName: '개화산',
         cx: 151,
         cy: 25,
