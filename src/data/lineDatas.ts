@@ -1822,7 +1822,7 @@ const lineDatas = {
     ],
     rect: [
       {
-        stationName: '김포항공',
+        stationName: '김포공항',
         width: 15,
         height: 40,
         x: 162,
