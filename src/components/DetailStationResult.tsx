@@ -11,7 +11,7 @@ export default function DetailStationResult() {
   const currentStation = useRecoilValue(currentStationAtom);
   const [stationInfo, setStationInfo] = useRecoilState(stationInfoAtom);
   let subwayId: string;
-  // console.log(stationInfo[0]?.subwayId, stationInfo[0]?.subwayList.split(','));
+  console.log(stationInfo[0]?.subwayId, stationInfo[0]?.subwayList.split(','));
 
   if (Number(stationInfo[0]?.trnsitCo) > 1) {
     subwayId = 'transfer';
@@ -36,8 +36,7 @@ export default function DetailStationResult() {
   }
 
   // 5호선 - 신정, 오목교, 군자, 아차산, 광나루, 천호, 굽은다리, 강일, 미사, 하남풍산, 하남시청, 하남검단산, 개롱, 거여
-  // 2호선
-  // 1호선
+  // 4호선 - 별내별가람, 오남, 진접
 
   useEffect(() => {
     axios
