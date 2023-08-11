@@ -1,6 +1,7 @@
 import { atom } from 'recoil';
 import lineDatas from '../data/lineDatas';
 import stationNameDatas from '../data/stationDatas';
+import { ISubwayArriveInfo } from '../interfaces/interfaces';
 
 export const lineAtom = atom({
   key: 'lineAtom',
@@ -29,5 +30,5 @@ export const isDropdownAtom = atom({
 
 export const stationInfoAtom = atom({
   key: 'stationInfoAtom',
-  default: [],
+  default: [] as ISubwayArriveInfo[],
 });

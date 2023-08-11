@@ -109,5 +109,5 @@ export interface ISubwayArriveInfo {
 }
 export interface ISubwayProps {
   errorMessage: ISubwayErrorInfo;
-  realtimeArrivalList: ISubwayArriveInfo;
+  realtimeArrivalList: ISubwayArriveInfo[];
 }
