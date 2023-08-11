@@ -10,8 +10,34 @@ import { ISubwayProps } from '../interfaces/interfaces';
 export default function DetailStationResult() {
   const currentStation = useRecoilValue(currentStationAtom);
   const [stationInfo, setStationInfo] = useRecoilState(stationInfoAtom);
-  const subwayId: string = stationInfo[0]?.subwayId;
-  console.log(stationInfo);
+  let subwayId: string;
+  // console.log(stationInfo[0]?.subwayId, stationInfo[0]?.subwayList.split(','));
+
+  if (Number(stationInfo[0]?.trnsitCo) > 1) {
+    subwayId = 'transfer';
+  } else if (Number(stationInfo[0]?.trnsitCo) === 1) {
+    if (
+      stationInfo[0]?.subwayList.split(',').includes('1002')
+      || stationInfo[0]?.subwayId === '1002'
+    ) {
+      subwayId = '1002';
+    } else if (
+      stationInfo[0]?.subwayList.split(',').includes('1004')
+      || stationInfo[0]?.subwayId === '1004'
+    ) {
+      subwayId = '1004';
+    } else if (
+      stationInfo[0]?.subwayList.split(',').includes('1005')
+      || stationInfo[0]?.subwayId === '1005'
+      || stationInfo[0]?.subwayId === '1063'
+    ) {
+      subwayId = '1005';
+    }
+  }
+
+  // 5호선 - 신정, 오목교, 군자, 아차산, 광나루, 천호, 굽은다리, 강일, 미사, 하남풍산, 하남시청, 하남검단산, 개롱, 거여
+  // 2호선
+  // 1호선
 
   useEffect(() => {
     axios
