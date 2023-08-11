@@ -1,12 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
-import { useSetRecoilState } from 'recoil';
-// componetns
+import { useSetRecoilState, useRecoilValue } from 'recoil';
+// components
 import { IRectProps } from '../interfaces/interfaces';
-import { currentStationAtom } from '../recoil/atoms';
+import { currentStationAtom, lineSelectAtom } from '../recoil/atoms';
 
 function LineRect({ rectData, line }: IRectProps) {
   const [stroke, setStroke] = useState<string>();
   const rectRef = useRef<SVGRectElement>(null);
+  const lineSelect = useRecoilValue(lineSelectAtom);
   const setCurrentStation = useSetRecoilState(currentStationAtom);
 
   useEffect(() => {
@@ -19,13 +20,25 @@ function LineRect({ rectData, line }: IRectProps) {
     }
 
     if (line === 'line4') {
-      setStroke('#08A5E3');
+      if (lineSelect === 'line4' || lineSelect === '') {
+        setStroke('#08A5E3');
+      } else {
+        setStroke('#08a5e34e');
+      }
     } else if (line === 'line5') {
-      setStroke('#8300EB');
+      if (lineSelect === 'line5' || lineSelect === '') {
+        setStroke('#8300EB');
+      } else {
+        setStroke('#8100eb4e');
+      }
     } else if (line === 'line2') {
-      setStroke('#3DB44B');
+      if (lineSelect === 'line2' || lineSelect === '') {
+        setStroke('#3DB44B');
+      } else {
+        setStroke('#3db44b4e');
+      }
     }
-  }, [rectData.stationName, line, setCurrentStation]);
+  }, [rectData.stationName, line, setCurrentStation, lineSelect]);
   return (
     <rect
       width={rectData.width}

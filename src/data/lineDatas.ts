@@ -1630,36 +1630,6 @@ const lineDatas = {
         cy: 10,
       },
       {
-        stationName: '방화',
-        cx: 10,
-        cy: 10,
-      },
-      {
-        stationName: '방화',
-        cx: 10,
-        cy: 10,
-      },
-      {
-        stationName: '방화',
-        cx: 10,
-        cy: 10,
-      },
-      {
-        stationName: '방화',
-        cx: 10,
-        cy: 10,
-      },
-      {
-        stationName: '방화',
-        cx: 10,
-        cy: 10,
-      },
-      {
-        stationName: '방화',
-        cx: 10,
-        cy: 10,
-      },
-      {
         stationName: '개화산',
         cx: 151,
         cy: 25,
@@ -1852,7 +1822,7 @@ const lineDatas = {
     ],
     rect: [
       {
-        stationName: '김포항공',
+        stationName: '김포공항',
         width: 15,
         height: 40,
         x: 162,
