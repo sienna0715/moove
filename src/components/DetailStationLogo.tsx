@@ -1,5 +1,5 @@
 function DetailStationLogo() {
-  return <div className="DetailStationLogo">MOOVE</div>;
+  return <div className="detail-station-logo">MOOVE</div>;
 }
 
 export default DetailStationLogo;
