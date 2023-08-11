@@ -978,7 +978,7 @@ const lineDatas = {
         y: 770,
       },
       {
-        stationName: '총신대입구',
+        stationName: '총신대입구(이수)',
         width: 15,
         height: 30,
         x: 968,
@@ -1341,7 +1341,7 @@ const lineDatas = {
         x: 795,
         y: 1225,
         dx: -25,
-        dy: -20,
+        dy: -15,
         fill: 'gray',
       },
       {
@@ -1357,7 +1357,7 @@ const lineDatas = {
         x: 675,
         y: 1225,
         dx: -20,
-        dy: -20,
+        dy: -15,
         fill: 'gray',
       },
       {
@@ -1365,7 +1365,7 @@ const lineDatas = {
         x: 605,
         y: 1225,
         dx: 20,
-        dy: 25,
+        dy: 35,
         fill: 'black',
       },
       {
@@ -1373,7 +1373,7 @@ const lineDatas = {
         x: 545,
         y: 1225,
         dx: -18,
-        dy: -20,
+        dy: -15,
         fill: 'gray',
       },
       {
@@ -1381,7 +1381,7 @@ const lineDatas = {
         x: 495,
         y: 1225,
         dx: -28,
-        dy: -20,
+        dy: -15,
         fill: 'gray',
       },
       {
@@ -1389,7 +1389,7 @@ const lineDatas = {
         x: 450,
         y: 1244,
         dx: -55,
-        dy: -15,
+        dy: -10,
         fill: 'gray',
       },
       {
