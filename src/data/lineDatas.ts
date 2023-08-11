@@ -1657,7 +1657,7 @@ const lineDatas = {
         cy: 580,
       },
       {
-        stationName: '신정',
+        stationName: '신정(은행정)',
         cx: 335,
         cy: 600,
       },
@@ -1667,7 +1667,7 @@ const lineDatas = {
         cy: 600,
       },
       {
-        stationName: '오목교',
+        stationName: '오목교(목동운동장앞)',
         cx: 455,
         cy: 600,
       },
@@ -1732,12 +1732,12 @@ const lineDatas = {
         cy: 227,
       },
       {
-        stationName: '아차산',
+        stationName: '아차산(어린이대공원후문)',
         cx: 1700,
         cy: 420,
       },
       {
-        stationName: '광나루',
+        stationName: '광나루(장신대)',
         cx: 1700,
         cy: 530,
       },
@@ -1747,7 +1747,7 @@ const lineDatas = {
         cy: 650,
       },
       {
-        stationName: '굽은다리',
+        stationName: '굽은다리(강동구민회관앞)',
         cx: 2002,
         cy: 580,
       },
@@ -1903,14 +1903,14 @@ const lineDatas = {
         y: 190,
       },
       {
-        stationName: '군자',
+        stationName: '군자(능동)',
         width: 30,
         height: 15,
         x: 1680,
         y: 300,
       },
       {
-        stationName: '천호',
+        stationName: '천호(풍납토성)',
         width: 30,
         height: 15,
         x: 1700,

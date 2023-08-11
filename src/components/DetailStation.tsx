@@ -5,10 +5,12 @@ import DetailStationResult from './DetailStationResult';
 
 function DetailStation() {
   return (
-    <div className="DetailStationWrap">
-      <DetailStationLogo />
-      <DetailStationSearchWrap />
-      <DetailStationResult />
+    <div className="detail-station-wrap">
+      <div className="detail-station-contatiner">
+        <DetailStationLogo />
+        <DetailStationSearchWrap />
+        <DetailStationResult />
+      </div>
     </div>
   );
 }
