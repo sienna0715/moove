@@ -1,13 +1,13 @@
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 // components
 import '../styles/detail.scss';
-import DetailStationResult from './DetailStationResult';
+import DetailStationResult from './DetailStation';
 import Line2 from '../map/Line2';
 import Line4 from '../map/Line4';
 import Line5 from '../map/Line5';
 import TransferStation from '../map/TransferStation';
 
-function DetailStation() {
+function Main() {
   return (
     <div className="detail-station-wrap">
       <div className="detail-station-contatiner">
@@ -38,4 +38,4 @@ function DetailStation() {
   );
 }
 
-export default DetailStation;
+export default Main;
