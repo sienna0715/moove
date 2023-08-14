@@ -4,7 +4,6 @@ import { v4 as uuidv4 } from 'uuid';
 import LinePath from './LinePath';
 import LineLine from './LineLine';
 import LineCircle from './LineCircle';
-import LineRect from './LineRect';
 import LineText from './LineText';
 import { lineAtom } from '../recoil/atoms';
 
@@ -21,9 +20,6 @@ function Line2() {
       ))}
       {lineDatas.line2?.circle.map((circleData) => (
         <LineCircle key={uuidv4()} circleData={circleData} line="line2" />
-      ))}
-      {lineDatas.line2?.rect.map((rectData) => (
-        <LineRect key={uuidv4()} rectData={rectData} line="line2" />
       ))}
       {lineDatas.line2?.text.map((textData) => (
         <LineText key={uuidv4()} textData={textData} line="line2" />

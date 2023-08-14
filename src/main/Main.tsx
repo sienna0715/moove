@@ -5,6 +5,7 @@ import DetailStationResult from './DetailStation';
 import Line2 from '../map/Line2';
 import Line4 from '../map/Line4';
 import Line5 from '../map/Line5';
+import TransferStation from '../map/TransferStation';
 
 function Main() {
   return (
@@ -23,9 +24,11 @@ function Main() {
                 <Line2 />
                 <Line4 />
                 <Line5 />
+                <TransferStation />
                 <use xlinkHref="#line2SvgContainer" />
                 <use xlinkHref="#line4SvgContainer" />
                 <use xlinkHref="#line5SvgContainer" y={100} />
+                <use xlinkHref="#transferStationSvgContainer" />
               </svg>
             </TransformComponent>
           </TransformWrapper>

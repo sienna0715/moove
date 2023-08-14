@@ -4,7 +4,7 @@ import { useSetRecoilState, useRecoilValue } from 'recoil';
 import { IRectProps } from '../interfaces/interfaces';
 import { currentStationAtom, lineSelectAtom } from '../recoil/atoms';
 
-function LineRect({ rectData, line }: IRectProps) {
+function LineRect({ rectData }: IRectProps) {
   const [stroke, setStroke] = useState<string>();
   const rectRef = useRef<SVGRectElement>(null);
   const lineSelect = useRecoilValue(lineSelectAtom);
@@ -19,26 +19,12 @@ function LineRect({ rectData, line }: IRectProps) {
       });
     }
 
-    if (line === 'line4') {
-      if (lineSelect === 'line4' || lineSelect === '') {
-        setStroke('#08A5E3');
-      } else {
-        setStroke('#08a5e34e');
-      }
-    } else if (line === 'line5') {
-      if (lineSelect === 'line5' || lineSelect === '') {
-        setStroke('#8300EB');
-      } else {
-        setStroke('#8100eb4e');
-      }
-    } else if (line === 'line2') {
-      if (lineSelect === 'line2' || lineSelect === '') {
-        setStroke('#3DB44B');
-      } else {
-        setStroke('#3db44b4e');
-      }
+    if (rectData.lines.some((line) => line === lineSelect) || !lineSelect) {
+      setStroke('black');
+    } else {
+      setStroke('#0000003e');
     }
-  }, [rectData.stationName, line, setCurrentStation, lineSelect]);
+  }, [lineSelect, rectData.lines, rectData.stationName, setCurrentStation]);
   return (
     <rect
       width={rectData.width}
