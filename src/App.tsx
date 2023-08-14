@@ -1,5 +1,5 @@
 import './App.scss';
-import DetailStation from './detail/DetailStation';
+import Main from './main/Main';
 import Header from './header/Header';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="subway-wrap">
       <Header />
       <div className="subway-container">
-        <DetailStation />
+        <Main />
       </div>
     </div>
   );
