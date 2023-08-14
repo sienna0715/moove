@@ -1,5 +1,3 @@
-import React from 'react';
-
 function DetailStationExit() {
   return (
     <div className="exit-information">
