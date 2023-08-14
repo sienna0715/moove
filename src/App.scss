@@ -1,13 +1,16 @@
-.subwayWrap {
+.subway-wrap {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
-  justify-content: flex-start;
-  .subwayContainer {
-    width: 80%;
+  flex-direction: column;
+  .subway-container {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    display: flex;
+    align-items: center;
   }
 }

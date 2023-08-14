@@ -1,5 +1,30 @@
+@import '../styles/breakpoints.scss';
+
 .station-result-wrap {
-  width: 100%;
+  width: 25%;
+  min-width: 470px;
+  background-color: var(--color-sub);
+  border: 3px solid var(--color-border);
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  margin-right: 3rem;
+  // 스크롤
+  // overflow-y: scroll;
+  // -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  // scrollbar-width: none; /* 파이어폭스 */
+  // &::-webkit-scrollbar {
+  //   display: none; /* 크롬, 사파리, 오페라, 엣지 */
+  // }
+  @media screen and (max-width: #{$breakpoint-desktop}) {
+    min-width: 335px;
+    width: 90vw;
+    height: 35%;
+    margin-right: 0;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 0;
+    margin-top: 2rem;
+  }
   .station-result-container {
     margin-top: 3rem;
     width: 100%;
@@ -15,7 +40,7 @@
       align-items: center;
       position: relative;
       .main-station {
-        width: 10rem;
+        width: 15rem;
         height: 3rem;
         background-color: var(--color-white);
         border: 4px solid var(--color-black);
@@ -71,17 +96,22 @@
           display: flex;
           align-items: center;
         }
+        @media screen and (max-width: #{$breakpoint-desktop}) {
+          width: 80%;
+        }
       }
     }
     .arrive-information {
       width: 20rem;
       margin-top: 2rem;
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
+      font-size: 0.9rem;
       .subway {
       }
       .count {
         color: var(--color-time);
+        margin-left: 1rem;
       }
     }
     .exit-information {
