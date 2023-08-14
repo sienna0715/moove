@@ -13,8 +13,7 @@ function DetailStationSearch() {
   const [filteredStationNames, setFilteredStationNames] = useState<string[]>(
     [],
   );
-  const [currentStation, setCurrentStation] =
-    useRecoilState(currentStationAtom);
+  const [currentStation, setCurrentStation] = useRecoilState(currentStationAtom);
   const [isDropdown, setIsDropdown] = useRecoilState(isDropdownAtom);
   const stationNameDatas = useRecoilValue(stationNameAtom);
 
