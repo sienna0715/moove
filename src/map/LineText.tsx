@@ -16,8 +16,8 @@ function LineText({ textData, line }: ITextProps) {
       }
     } else if (fill === 'black' || fill === '#0000004e') {
       if (
-        textData.lines?.some((lineData) => lineData === lineSelect) ||
-        !lineSelect
+        textData.lines?.some((lineData) => lineData === lineSelect)
+        || !lineSelect
       ) {
         setFill('black');
       } else {
