@@ -21,21 +21,21 @@ function LineRect({ rectData, line }: IRectProps) {
 
     if (line === 'line4') {
       if (lineSelect === 'line4' || lineSelect === '') {
-        setStroke('#08A5E3');
+        setStroke('black');
       } else {
-        setStroke('#08a5e34e');
+        setStroke('#0000003e');
       }
     } else if (line === 'line5') {
       if (lineSelect === 'line5' || lineSelect === '') {
-        setStroke('#8300EB');
+        setStroke('black');
       } else {
-        setStroke('#8100eb4e');
+        setStroke('#0000003e');
       }
     } else if (line === 'line2') {
       if (lineSelect === 'line2' || lineSelect === '') {
-        setStroke('#3DB44B');
+        setStroke('black');
       } else {
-        setStroke('#3db44b4e');
+        setStroke('#0000003e');
       }
     }
   }, [rectData.stationName, line, setCurrentStation, lineSelect]);
