@@ -31,6 +31,7 @@ export interface IRectInfo {
   height: number;
   x: number;
   y: number;
+  lines: string[];
 }
 export interface ItextInfo {
   value: string;
@@ -43,6 +44,7 @@ export interface ItextInfo {
   tValue?: string;
   tValue1?: string;
   fill: string;
+  lines?: string[];
 }
 
 export interface ICircleProps {
@@ -59,11 +61,10 @@ export interface IPathProps {
 }
 export interface IRectProps {
   rectData: IRectInfo;
-  line: string;
 }
 export interface ITextProps {
   textData: ItextInfo;
-  line: string;
+  line?: string;
 }
 
 // 서울시 지하철 실시간 도착정보 API
