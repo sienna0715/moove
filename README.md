@@ -8,7 +8,7 @@
 🐼 **이시온** | [sienna의 깃헙 →](https://github.com/sienna0715)
 
 ### Preiod
-2023.07.11 ~ ing
+2023.07.11 ~ 2023.08.15
 
 ### Development environment
 - Vite
