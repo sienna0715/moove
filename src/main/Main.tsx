@@ -1,38 +1,13 @@
-import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
-// components
-import '../styles/detail.scss';
-import DetailStationResult from './DetailStation';
-import Line2 from '../map/Line2';
-import Line4 from '../map/Line4';
-import Line5 from '../map/Line5';
-import TransferStation from '../map/TransferStation';
+import '../styles/main.scss';
+import DetailStation from './DetailStation';
+import Map from './Map';
 
 function Main() {
   return (
-    <div className="detail-station-wrap">
-      <div className="detail-station-contatiner">
-        <DetailStationResult />
-        <div className="subway-map-border">
-          <TransformWrapper initialScale={1} minScale={1} maxScale={10}>
-            <TransformComponent>
-              <svg
-                className="subway-map"
-                width="100%"
-                height="80vh"
-                viewBox="0 0 2500 1700"
-              >
-                <Line2 />
-                <Line4 />
-                <Line5 />
-                <TransferStation />
-                <use xlinkHref="#line2SvgContainer" />
-                <use xlinkHref="#line4SvgContainer" />
-                <use xlinkHref="#line5SvgContainer" y={100} />
-                <use xlinkHref="#transferStationSvgContainer" />
-              </svg>
-            </TransformComponent>
-          </TransformWrapper>
-        </div>
+    <div className="main-wrap">
+      <div className="main-contatiner">
+        <DetailStation />
+        <Map />
       </div>
     </div>
   );
