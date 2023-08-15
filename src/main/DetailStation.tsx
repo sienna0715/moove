@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useRecoilValue, useSetRecoilState } from 'recoil';
 import axios from 'axios';
 // components
-import '../styles/detail_result_style.scss';
+import '../styles/detail.scss';
 import { currentStationAtom, stationInfoAtom } from '../recoil/atoms';
 import { ISubwayProps, ISubwayArriveInfo } from '../interfaces/interfaces';
 import DetailStationLocation from './DetailStationLocation';
@@ -24,8 +24,8 @@ export default function DetailStation() {
   }, [currentStation, setStationInfo]);
 
   return (
-    <div className="station-result-wrap">
-      <div className="station-result-container">
+    <div className="detail-station-wrap">
+      <div className="detail-station-container">
         <DetailStationLocation />
         <DetailStationInfo />
         <DetailStationExit />
