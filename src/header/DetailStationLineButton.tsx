@@ -1,4 +1,4 @@
-import { useRecoilValue, useSetRecoilState } from 'recoil';
+import { useRecoilState } from 'recoil';
 import { useEffect, useState } from 'react';
 // components
 import { lineSelectAtom } from '../recoil/atoms';
@@ -9,19 +9,18 @@ function DetailStationLineButton({
   line,
 }: IDetailStationLineButtonProps) {
   const [isLine, setIsLine] = useState('true');
-  const setLineSelect = useSetRecoilState(lineSelectAtom);
-  const lineSelectValue = useRecoilValue(lineSelectAtom);
+  const [lineSelect, setLineSelect] = useRecoilState(lineSelectAtom);
 
   useEffect(() => {
-    if (lineSelectValue === line || lineSelectValue === '') {
+    if (lineSelect === line || lineSelect === '') {
       setIsLine('true');
     } else {
       setIsLine('false');
     }
-  }, [line, lineSelectValue]);
+  }, [line, lineSelect]);
 
   const lineButtonClickHandler = () => {
-    if (lineSelectValue === line) {
+    if (lineSelect === line) {
       setLineSelect('');
     } else {
       setLineSelect(line);
