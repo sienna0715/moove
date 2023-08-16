@@ -1,3 +1,8 @@
+export interface IDetailStationLineButtonProps {
+  value: string;
+  line: string;
+}
+
 export interface IDataInfo {
   line2: ILineDatasInfo;
   line4: ILineDatasInfo;

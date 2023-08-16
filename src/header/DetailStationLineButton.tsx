@@ -2,11 +2,7 @@ import { useRecoilValue, useSetRecoilState } from 'recoil';
 import { useEffect, useState } from 'react';
 // components
 import { lineSelectAtom } from '../recoil/atoms';
-
-interface IDetailStationLineButtonProps {
-  value: string;
-  line: string;
-}
+import { IDetailStationLineButtonProps } from '../interfaces/interfaces';
 
 function DetailStationLineButton({
   value,
