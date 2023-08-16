@@ -1,3 +1,19 @@
+export interface IDetailStationSearchDropdownProps {
+  filteredStationNames: string[];
+}
+
+export interface IDetailStationSearchInputProps {
+  searchInput: string;
+  stationNames: string[];
+  setSearchInput: (state: string) => void;
+  setFilteredStationNames: (state: string[]) => void;
+}
+
+export interface IDetailStationLineButtonProps {
+  value: string;
+  line: string;
+}
+
 export interface IDataInfo {
   line2: ILineDatasInfo;
   line4: ILineDatasInfo;
