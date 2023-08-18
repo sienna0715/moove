@@ -27,12 +27,12 @@ function LineRect({ rectData }: IRectProps) {
   }, [lineSelect, rectData.lines, rectData.stationName, setCurrentStation]);
   return (
     <rect
-      width={rectData.width}
-      height={rectData.height}
+      width={25}
+      height={25}
       x={rectData.x}
       y={rectData.y}
-      rx={8}
-      ry={8}
+      rx={20}
+      ry={20}
       fill="white"
       strokeWidth={5}
       stroke={stroke}

@@ -35,7 +35,7 @@ function LineText({ textData, line }: ITextProps) {
       dx={textData.dx}
       dy={textData.dy}
       fill={fill}
-      fontSize={20}
+      fontSize={15}
       fontWeight={800}
     >
       {textData.value}
