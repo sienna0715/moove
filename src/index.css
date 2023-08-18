@@ -24,9 +24,6 @@
 }
 
 :root {
-  --color-main: #333333;
-  --color-sub: #f2f2f2;
-  --color-border: #d9d9d9;
   --color-exit: #efbe0a;
   --color-time: #ff2020;
   --color-line2: #3db44b;
@@ -34,6 +31,8 @@
   --color-line5: #8300eb;
   --color-white: #ffffff;
   --color-black: #000000;
+  --color-gray: #7e7e7e;
+  --color-input: #ffffff80;
 }
 
 body {
