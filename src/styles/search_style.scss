@@ -58,21 +58,32 @@
     }
     .DetailStationSearchDropdownWapper {
       max-height: 8rem;
-      overflow: auto;
-      background-color: var(--color-white);
+      // 스크롤
+      overflow-y: scroll;
+      &::-webkit-scrollbar {
+        width: 10px;
+        background: var(--color-white);
+      }
+      &::-webkit-scrollbar-thumb {
+        height: 30%;
+        background: var(--color-black);
+        border-radius: 5rem;
+      }
     }
     .DetailStationSearchDropdownButton {
       width: 100%;
       background-color: var(--color-white);
       border: none;
-      border-top: 1px solid rgb(184, 184, 184);
       border-radius: 0 0 1rem 1rem;
       padding-bottom: 0.4rem;
+      margin-top: 0.5rem;
       &:hover {
-        background: lighten(rgb(223, 223, 223), 5%);
+        background: darken(black, 10%);
+        color: var(--color-white);
       }
       &:active {
-        background: darken(rgb(223, 223, 223), 5%);
+        background: lighten(black, 15%);
+        color: var(--color-white);
       }
     }
   }
