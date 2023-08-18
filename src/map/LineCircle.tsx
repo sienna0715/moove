@@ -43,9 +43,9 @@ function LineCircle({ circleData, line }: ICircleProps) {
     <circle
       cx={circleData.cx}
       cy={circleData.cy}
-      r={5}
+      r={8}
       fill="white"
-      strokeWidth={5}
+      strokeWidth={3}
       stroke={stroke}
       ref={circleRef}
     />

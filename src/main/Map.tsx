@@ -13,7 +13,7 @@ function Map() {
           <svg
             className="subway-map"
             width="100%"
-            height="80vh"
+            height="75vh"
             viewBox="0 0 2500 1700"
           >
             <Line2 />
