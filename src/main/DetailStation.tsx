@@ -11,10 +11,12 @@ import DetailStationExit from './DetailStationExit';
 
 export default function DetailStation() {
   const currentStation = useRecoilValue(currentStationAtom);
-  const setStationInfo = useSetRecoilState<ISubwayArriveInfo[]>(stationInfoAtom);
+  const setStationInfo =
+    useSetRecoilState<ISubwayArriveInfo[]>(stationInfoAtom);
 
   // api address
-  const arrivalAddress = 'http://swopenAPI.seoul.go.kr/api/subway/6267466b6b616e7437394670434955/json/realtimeStationArrival/0/5/';
+  const arrivalAddress =
+    'http://swopenAPI.seoul.go.kr/api/subway/6267466b6b616e7437394670434955/json/realtimeStationArrival/0/5/';
 
   useEffect(() => {
     axios
