@@ -1,5 +1,7 @@
 # MOOVE
 지하철 노선도 및 인근 장소 정보 제공 웹앱 서비스
+
+‼️ 배포사이트 접속 전에 https://cors-anywhere.herokuapp.com/ 해당 주소에 들어가셔서 Request 버튼을 클릭해주세요!
 - [배포 사이트 👉](https://sienna0715.github.io/moove/)
 - [Team Notion  👉](https://fluoridated-locust-c63.notion.site/MOOVE-382f79602af24adc8f7d5f6fe49349ff?pvs=4)
 
