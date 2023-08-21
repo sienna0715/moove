@@ -10,16 +10,14 @@ import DetailStationInfo from './DetailStationInfo';
 
 export default function DetailStation() {
   const currentStation = useRecoilValue(currentStationAtom);
-  const setStationInfo =
-    useSetRecoilState<ISubwayArriveInfo[]>(stationInfoAtom);
+  const setStationInfo = useSetRecoilState<ISubwayArriveInfo[]>(stationInfoAtom);
 
   // api address
-  const arrivalAddress =
-    '/api/subway/6267466b6b616e7437394670434955/json/realtimeStationArrival/0/5/';
+  const arrivalAddress = 'http://swopenAPI.seoul.go.kr/api/subway/6267466b6b616e7437394670434955/json/realtimeStationArrival/0/5/';
 
   useEffect(() => {
     axios
-      .get<ISubwayProps>(`${arrivalAddress}${currentStation}`)
+      .get<ISubwayProps>(`https://cors-anywhere.herokuapp.com/${arrivalAddress}${currentStation}`)
       .then((res) => setStationInfo(res.data.realtimeArrivalList))
       .catch((err) => console.log(err));
   }, [currentStation, setStationInfo]);
