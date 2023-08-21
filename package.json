@@ -40,5 +40,6 @@
     "node-sass": "^9.0.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.0"
-  }
+  },
+  "proxy": "http://swopenAPI.seoul.go.kr"
 }
