@@ -20,7 +20,7 @@ export default function DetailStation() {
 
   useEffect(() => {
     axios
-      .get<ISubwayProps>(`${arrivalAddress}${currentStation}`)
+      .get<ISubwayProps>(`https://cors-anywhere.herokuapp.com/${arrivalAddress}${currentStation}`)
       .then((res) => setStationInfo(res.data.realtimeArrivalList))
       .catch((err) => console.log(err));
   }, [currentStation, setStationInfo]);
@@ -35,3 +35,4 @@ export default function DetailStation() {
     </div>
   );
 }
+

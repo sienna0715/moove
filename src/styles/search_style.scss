@@ -1,7 +1,6 @@
 @import '../styles/breakpoints.scss';
 
 .DetailStationSearchWrap {
-  min-width: 1000px;
   width: 70%;
   height: max-content;
   display: flex;
@@ -17,12 +16,10 @@
     height: 2rem;
     padding: 1%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: white;
-    border: 3px solid var(--color-border);
     border-radius: 2rem;
     margin-right: 3rem;
+    background-color: var(--color-input);
     position: relative;
     z-index: 999;
     .DetailStationSearchInput {
@@ -31,43 +28,62 @@
       margin: 0 3%;
       border: none;
       outline: none;
+      background-color: transparent;
+      position: relative;
+      font-size: 0.9rem;
     }
     .DetailStationSearchIcon {
-      margin-right: 5%;
+      color: var(--color-gray);
+      margin-left: 5%;
     }
+  }
+  .drop-true {
+    background-color: var(--color-white);
   }
 
   .DetailStationSearchDropdown {
+    font-size: 0.9rem;
+    width: 45.95vw;
     position: absolute;
-    top: 4rem;
-    background-color: var(--color-border);
+    top: 3.5rem;
+    background-color: var(--color-white);
     border-radius: 0 0 1rem 1rem;
-    z-index: 99;
+    z-index: 9;
     > div {
       padding-left: 1rem;
     }
     .DetailStationSerchDropdownSpace {
-      padding-top: 1.3rem;
-      background-color: var(--color-border);
+      padding-top: 2rem;
+      background-color: var(--color-white);
     }
     .DetailStationSearchDropdownWapper {
-      width: 45vw;
       max-height: 8rem;
-      overflow: auto;
-      background-color: var(--color-border);
+      // 스크롤
+      overflow-y: scroll;
+      &::-webkit-scrollbar {
+        width: 10px;
+        background: var(--color-white);
+      }
+      &::-webkit-scrollbar-thumb {
+        height: 30%;
+        background: var(--color-black);
+        border-radius: 5rem;
+      }
     }
     .DetailStationSearchDropdownButton {
       width: 100%;
-      background-color: var(--color-border);
+      background-color: var(--color-white);
       border: none;
-      border-top: 1px solid rgb(184, 184, 184);
       border-radius: 0 0 1rem 1rem;
       padding-bottom: 0.4rem;
+      margin-top: 0.5rem;
       &:hover {
-        background: lighten(rgb(223, 223, 223), 5%);
+        background: darken(black, 10%);
+        color: var(--color-white);
       }
       &:active {
-        background: darken(rgb(223, 223, 223), 5%);
+        background: lighten(black, 15%);
+        color: var(--color-white);
       }
     }
   }

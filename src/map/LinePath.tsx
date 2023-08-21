@@ -29,7 +29,7 @@ function LinePath({ pathData, line }: IPathProps) {
     }
   }, [line, lineSelect]);
 
-  return <path d={pathData.d} fill="none" stroke={stroke} strokeWidth="8" />;
+  return <path d={pathData.d} fill="none" stroke={stroke} strokeWidth="19" />;
 }
 
 export default LinePath;

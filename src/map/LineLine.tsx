@@ -35,7 +35,7 @@ function LineLine({ lineData, line }: ILineProps) {
       y1={lineData.y1}
       x2={lineData.x2}
       y2={lineData.y2}
-      strokeWidth="8"
+      strokeWidth="19"
       stroke={stroke}
     />
   );

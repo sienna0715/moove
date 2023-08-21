@@ -1,5 +1,5 @@
 import { FaSearch } from 'react-icons/fa';
-import { useSetRecoilState } from 'recoil';
+import { useRecoilState, useSetRecoilState } from 'recoil';
 import { currentStationAtom, isDropdownAtom } from '../recoil/atoms';
 import { IDetailStationSearchInputProps } from '../interfaces/interfaces';
 
@@ -9,7 +9,7 @@ function DetailStationSearchInput({
   setSearchInput,
   setFilteredStationNames,
 }: IDetailStationSearchInputProps) {
-  const setIsDropdown = useSetRecoilState(isDropdownAtom);
+  const [isDropdown, setIsDropdown] = useRecoilState(isDropdownAtom);
   const setCurrentStation = useSetRecoilState(currentStationAtom);
 
   const searchInputChangeHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -34,18 +34,18 @@ function DetailStationSearchInput({
   };
 
   return (
-    <div className="DetailStationSearch">
+    <div className={`DetailStationSearch drop-${String(isDropdown)}`}>
+      <FaSearch
+        className="DetailStationSearchIcon"
+        size="20"
+        onClick={searchClickHandler}
+      />
       <input
         className="DetailStationSearchInput"
         placeholder="역명 검색"
         onChange={searchInputChangeHandler}
         value={searchInput}
         onFocus={inputOnFocusHandler}
-      />
-      <FaSearch
-        className="DetailStationSearchIcon"
-        size="24"
-        onClick={searchClickHandler}
       />
     </div>
   );

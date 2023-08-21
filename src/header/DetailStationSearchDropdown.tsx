@@ -1,13 +1,12 @@
-import { useRecoilValue, useSetRecoilState } from 'recoil';
+import { useRecoilState, useSetRecoilState } from 'recoil';
 import { isDropdownAtom, currentStationAtom } from '../recoil/atoms';
 import { IDetailStationSearchDropdownProps } from '../interfaces/interfaces';
 
 function DetailStationSearchDropdown({
   filteredStationNames,
 }: IDetailStationSearchDropdownProps) {
-  const isDropdown = useRecoilValue(isDropdownAtom);
+  const [isDropdown, setIsDropdown] = useRecoilState(isDropdownAtom);
   const setCurrentStation = useSetRecoilState(currentStationAtom);
-  const setIsDropdown = useSetRecoilState(isDropdownAtom);
 
   const searchDropdownClickHandler = (stationName: string) => {
     setCurrentStation(stationName);
